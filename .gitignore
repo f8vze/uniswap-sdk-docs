@@ -64,3 +64,21 @@ jspm_packages/
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+# docusaurus specific
+.DS_Store
+
+node_modules/
+
+lib/core/metadata.js
+lib/core/MetadataBlog.js
+translated_docs
+build/
+yarn.lock
+i18n/*
+.docusaurus/*
+
+artifacts/
+cache/
+typechain/
