@@ -1,12 +1,8 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / utils/computePoolAddress
+---
+Id: 
+---
 
 # Module: utils/computePoolAddress
-
-## Table of contents
-
-### Functions
-
-- [computePoolAddress](utils_computepooladdress.md#computepooladdress)
 
 ## Functions
 

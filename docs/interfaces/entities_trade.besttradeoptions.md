@@ -1,15 +1,10 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [entities/trade](../modules/entities_trade.md) / BestTradeOptions
+---
+Id: 
+---
 
 # Interface: BestTradeOptions
 
 [entities/trade](../modules/entities_trade.md).BestTradeOptions
-
-## Table of contents
-
-### Properties
-
-- [maxHops](entities_trade.besttradeoptions.md#maxhops)
-- [maxNumResults](entities_trade.besttradeoptions.md#maxnumresults)
 
 ## Properties
 

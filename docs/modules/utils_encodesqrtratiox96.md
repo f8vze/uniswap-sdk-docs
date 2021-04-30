@@ -1,12 +1,8 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / utils/encodeSqrtRatioX96
+---
+Id: 
+---
 
 # Module: utils/encodeSqrtRatioX96
-
-## Table of contents
-
-### Functions
-
-- [encodeSqrtRatioX96](utils_encodesqrtratiox96.md#encodesqrtratiox96)
 
 ## Functions
 

@@ -1,4 +1,6 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / utils/fullMath
+---
+Id: 
+---
 
 # Module: utils/fullMath
 

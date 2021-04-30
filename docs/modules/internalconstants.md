@@ -1,16 +1,8 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / internalConstants
+---
+Id: 
+---
 
 # Module: internalConstants
-
-## Table of contents
-
-### Variables
-
-- [NEGATIVE\_ONE](internalconstants.md#negative_one)
-- [ONE](internalconstants.md#one)
-- [Q192](internalconstants.md#q192)
-- [Q96](internalconstants.md#q96)
-- [ZERO](internalconstants.md#zero)
 
 ## Variables
 

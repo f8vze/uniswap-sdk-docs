@@ -1,4 +1,6 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / constants
+---
+Id: 
+---
 
 # Module: constants
 
@@ -7,14 +9,6 @@
 ### Enumerations
 
 - [FeeAmount](../enums/constants.feeamount.md)
-
-### Variables
-
-- [FACTORY\_ADDRESS](constants.md#factory_address)
-- [NONFUNGIBLE\_POSITION\_MANAGER\_ADDRESS](constants.md#nonfungible_position_manager_address)
-- [POOL\_INIT\_CODE\_HASH](constants.md#pool_init_code_hash)
-- [SWAP\_ROUTER\_ADDRESS](constants.md#swap_router_address)
-- [TICK\_SPACINGS](constants.md#tick_spacings)
 
 ## Variables
 

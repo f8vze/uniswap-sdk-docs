@@ -1,20 +1,10 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [entities/tick](../modules/entities_tick.md) / Tick
+---
+Id: 
+---
 
 # Class: Tick
 
 [entities/tick](../modules/entities_tick.md).Tick
-
-## Table of contents
-
-### Constructors
-
-- [constructor](entities_tick.tick.md#constructor)
-
-### Properties
-
-- [index](entities_tick.tick.md#index)
-- [liquidityGross](entities_tick.tick.md#liquiditygross)
-- [liquidityNet](entities_tick.tick.md#liquiditynet)
 
 ## Constructors
 

@@ -1,22 +1,15 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [entities/tickDataProvider](../modules/entities_tickdataprovider.md) / TickDataProvider
+---
+Id: 
+---
 
 # Interface: TickDataProvider
 
 [entities/tickDataProvider](../modules/entities_tickdataprovider.md).TickDataProvider
 
-Provides information about ticks
-
 ## Implemented by
 
 * [*NoTickDataProvider*](../classes/entities_tickdataprovider.notickdataprovider.md)
 * [*TickListDataProvider*](../classes/entities_ticklistdataprovider.ticklistdataprovider.md)
-
-## Table of contents
-
-### Methods
-
-- [getTick](entities_tickdataprovider.tickdataprovider.md#gettick)
-- [nextInitializedTickWithinOneWord](entities_tickdataprovider.tickdataprovider.md#nextinitializedtickwithinoneword)
 
 ## Methods
 

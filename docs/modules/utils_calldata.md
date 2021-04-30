@@ -1,4 +1,6 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / utils/calldata
+---
+Id: 
+---
 
 # Module: utils/calldata
 
@@ -7,10 +9,6 @@
 ### Interfaces
 
 - [MethodParameters](../interfaces/utils_calldata.methodparameters.md)
-
-### Functions
-
-- [toHex](utils_calldata.md#tohex)
 
 ## Functions
 

@@ -1,12 +1,8 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / utils/mostSignificantBit
+---
+Id: 
+---
 
 # Module: utils/mostSignificantBit
-
-## Table of contents
-
-### Functions
-
-- [mostSignificantBit](utils_mostsignificantbit.md#mostsignificantbit)
 
 ## Functions
 

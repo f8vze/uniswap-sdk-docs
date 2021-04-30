@@ -1,27 +1,8 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / utils
+---
+Id: 
+---
 
 # Module: utils
-
-## Table of contents
-
-### References
-
-- [FullMath](utils.md#fullmath)
-- [LiquidityMath](utils.md#liquiditymath)
-- [MethodParameters](utils.md#methodparameters)
-- [SqrtPriceMath](utils.md#sqrtpricemath)
-- [TickList](utils.md#ticklist)
-- [TickMath](utils.md#tickmath)
-- [computePoolAddress](utils.md#computepooladdress)
-- [encodeRouteToPath](utils.md#encoderoutetopath)
-- [encodeSqrtRatioX96](utils.md#encodesqrtratiox96)
-- [isSorted](utils.md#issorted)
-- [maxLiquidityForAmounts](utils.md#maxliquidityforamounts)
-- [mostSignificantBit](utils.md#mostsignificantbit)
-- [nearestUsableTick](utils.md#nearestusabletick)
-- [priceToClosestTick](utils.md#pricetoclosesttick)
-- [tickToPrice](utils.md#ticktoprice)
-- [toHex](utils.md#tohex)
 
 ## References
 

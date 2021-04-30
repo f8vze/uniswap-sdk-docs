@@ -1,50 +1,8 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / index
+---
+Id: 
+---
 
 # Module: index
-
-## Table of contents
-
-### References
-
-- [BestTradeOptions](index.md#besttradeoptions)
-- [DecreaseLiquidityOptions](index.md#decreaseliquidityoptions)
-- [FACTORY\_ADDRESS](index.md#factory_address)
-- [FeeAmount](index.md#feeamount)
-- [FullMath](index.md#fullmath)
-- [IncreaseLiquidityOptions](index.md#increaseliquidityoptions)
-- [LiquidityMath](index.md#liquiditymath)
-- [MethodParameters](index.md#methodparameters)
-- [NFTPermitOptions](index.md#nftpermitoptions)
-- [NONFUNGIBLE\_POSITION\_MANAGER\_ADDRESS](index.md#nonfungible_position_manager_address)
-- [NoTickDataProvider](index.md#notickdataprovider)
-- [NonfungiblePositionManager](index.md#nonfungiblepositionmanager)
-- [POOL\_INIT\_CODE\_HASH](index.md#pool_init_code_hash)
-- [Pool](index.md#pool)
-- [Position](index.md#position)
-- [Route](index.md#route)
-- [SWAP\_ROUTER\_ADDRESS](index.md#swap_router_address)
-- [SqrtPriceMath](index.md#sqrtpricemath)
-- [SwapRouter](index.md#swaprouter)
-- [TICK\_SPACINGS](index.md#tick_spacings)
-- [Tick](index.md#tick)
-- [TickConstructorArgs](index.md#tickconstructorargs)
-- [TickDataProvider](index.md#tickdataprovider)
-- [TickList](index.md#ticklist)
-- [TickListDataProvider](index.md#ticklistdataprovider)
-- [TickMath](index.md#tickmath)
-- [Trade](index.md#trade)
-- [TradeOptions](index.md#tradeoptions)
-- [computePoolAddress](index.md#computepooladdress)
-- [encodeRouteToPath](index.md#encoderoutetopath)
-- [encodeSqrtRatioX96](index.md#encodesqrtratiox96)
-- [isSorted](index.md#issorted)
-- [maxLiquidityForAmounts](index.md#maxliquidityforamounts)
-- [mostSignificantBit](index.md#mostsignificantbit)
-- [nearestUsableTick](index.md#nearestusabletick)
-- [priceToClosestTick](index.md#pricetoclosesttick)
-- [tickToPrice](index.md#ticktoprice)
-- [toHex](index.md#tohex)
-- [tradeComparator](index.md#tradecomparator)
 
 ## References
 

@@ -1,38 +1,10 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [utils/tickMath](../modules/utils_tickmath.md) / TickMath
+---
+Id: 
+---
 
 # Class: TickMath
 
 [utils/tickMath](../modules/utils_tickmath.md).TickMath
-
-## Table of contents
-
-### Constructors
-
-- [constructor](utils_tickmath.tickmath.md#constructor)
-
-### Properties
-
-- [MAX\_SQRT\_RATIO](utils_tickmath.tickmath.md#max_sqrt_ratio)
-- [MAX\_TICK](utils_tickmath.tickmath.md#max_tick)
-- [MIN\_SQRT\_RATIO](utils_tickmath.tickmath.md#min_sqrt_ratio)
-- [MIN\_TICK](utils_tickmath.tickmath.md#min_tick)
-
-### Methods
-
-- [getSqrtRatioAtTick](utils_tickmath.tickmath.md#getsqrtratioattick)
-- [getTickAtSqrtRatio](utils_tickmath.tickmath.md#gettickatsqrtratio)
-
-## Constructors
-
-### constructor
-
-\+ `Private`**new TickMath**(): [*TickMath*](utils_tickmath.tickmath.md)
-
-Cannot be constructed.
-
-**Returns:** [*TickMath*](utils_tickmath.tickmath.md)
-
-Defined in: [utils/tickMath.ts:13](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/utils/tickMath.ts#L13)
 
 ## Properties
 

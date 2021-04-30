@@ -1,4 +1,6 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / entities/trade
+---
+Id: 
+---
 
 # Module: entities/trade
 
@@ -11,10 +13,6 @@
 ### Interfaces
 
 - [BestTradeOptions](../interfaces/entities_trade.besttradeoptions.md)
-
-### Functions
-
-- [tradeComparator](entities_trade.md#tradecomparator)
 
 ## Functions
 

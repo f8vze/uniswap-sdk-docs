@@ -1,12 +1,8 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / utils/nearestUsableTick
+---
+Id: 
+---
 
 # Module: utils/nearestUsableTick
-
-## Table of contents
-
-### Functions
-
-- [nearestUsableTick](utils_nearestusabletick.md#nearestusabletick)
 
 ## Functions
 

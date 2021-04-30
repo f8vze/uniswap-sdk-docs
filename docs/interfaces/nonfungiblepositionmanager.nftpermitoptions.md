@@ -1,19 +1,10 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [nonfungiblePositionManager](../modules/nonfungiblepositionmanager.md) / NFTPermitOptions
+---
+Id: 
+---
 
 # Interface: NFTPermitOptions
 
 [nonfungiblePositionManager](../modules/nonfungiblepositionmanager.md).NFTPermitOptions
-
-## Table of contents
-
-### Properties
-
-- [deadline](nonfungiblepositionmanager.nftpermitoptions.md#deadline)
-- [r](nonfungiblepositionmanager.nftpermitoptions.md#r)
-- [s](nonfungiblepositionmanager.nftpermitoptions.md#s)
-- [spender](nonfungiblepositionmanager.nftpermitoptions.md#spender)
-- [tokenId](nonfungiblepositionmanager.nftpermitoptions.md#tokenid)
-- [v](nonfungiblepositionmanager.nftpermitoptions.md#v)
 
 ## Properties
 

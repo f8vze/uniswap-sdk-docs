@@ -1,44 +1,10 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [entities/pool](../modules/entities_pool.md) / Pool
+---
+Id: 
+---
 
 # Class: Pool
 
 [entities/pool](../modules/entities_pool.md).Pool
-
-Represents a V3 pool
-
-## Table of contents
-
-### Constructors
-
-- [constructor](entities_pool.pool.md#constructor)
-
-### Properties
-
-- [\_token0Price](entities_pool.pool.md#_token0price)
-- [\_token1Price](entities_pool.pool.md#_token1price)
-- [fee](entities_pool.pool.md#fee)
-- [liquidity](entities_pool.pool.md#liquidity)
-- [sqrtRatioX96](entities_pool.pool.md#sqrtratiox96)
-- [tickCurrent](entities_pool.pool.md#tickcurrent)
-- [tickDataProvider](entities_pool.pool.md#tickdataprovider)
-- [token0](entities_pool.pool.md#token0)
-- [token1](entities_pool.pool.md#token1)
-
-### Accessors
-
-- [chainId](entities_pool.pool.md#chainid)
-- [tickSpacing](entities_pool.pool.md#tickspacing)
-- [token0Price](entities_pool.pool.md#token0price)
-- [token1Price](entities_pool.pool.md#token1price)
-
-### Methods
-
-- [getInputAmount](entities_pool.pool.md#getinputamount)
-- [getOutputAmount](entities_pool.pool.md#getoutputamount)
-- [involvesToken](entities_pool.pool.md#involvestoken)
-- [priceOf](entities_pool.pool.md#priceof)
-- [swap](entities_pool.pool.md#swap)
-- [getAddress](entities_pool.pool.md#getaddress)
 
 ## Constructors
 
@@ -65,22 +31,6 @@ Construct a pool
 Defined in: [entities/pool.ts:46](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/pool.ts#L46)
 
 ## Properties
-
-### \_token0Price
-
-• `Private` `Optional` **\_token0Price**: *default*
-
-Defined in: [entities/pool.ts:41](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/pool.ts#L41)
-
-___
-
-### \_token1Price
-
-• `Private` `Optional` **\_token1Price**: *default*
-
-Defined in: [entities/pool.ts:42](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/pool.ts#L42)
-
-___
 
 ### fee
 
@@ -253,24 +203,6 @@ Return the price of the given token in terms of the other token in the pool.
 **Returns:** *default*
 
 Defined in: [entities/pool.ts:127](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/pool.ts#L127)
-
-___
-
-### swap
-
-▸ `Private`**swap**(`zeroForOne`: *boolean*, `amountSpecified`: *default*, `sqrtPriceLimitX96?`: *default*): *Promise*<{ `amountCalculated`: *default* ; `liquidity`: *default* ; `sqrtRatioX96`: *default* ; `tickCurrent`: *number*  }\>
-
-#### Parameters:
-
-| Name | Type |
-| :------ | :------ |
-| `zeroForOne` | *boolean* |
-| `amountSpecified` | *default* |
-| `sqrtPriceLimitX96?` | *default* |
-
-**Returns:** *Promise*<{ `amountCalculated`: *default* ; `liquidity`: *default* ; `sqrtRatioX96`: *default* ; `tickCurrent`: *number*  }\>
-
-Defined in: [entities/pool.ts:179](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/pool.ts#L179)
 
 ___
 

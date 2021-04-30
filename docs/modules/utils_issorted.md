@@ -1,12 +1,8 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / utils/isSorted
+---
+Id: 
+---
 
 # Module: utils/isSorted
-
-## Table of contents
-
-### Functions
-
-- [isSorted](utils_issorted.md#issorted)
 
 ## Functions
 

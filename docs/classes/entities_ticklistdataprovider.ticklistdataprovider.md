@@ -1,29 +1,14 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [entities/tickListDataProvider](../modules/entities_ticklistdataprovider.md) / TickListDataProvider
+---
+Id: 
+---
 
 # Class: TickListDataProvider
 
 [entities/tickListDataProvider](../modules/entities_ticklistdataprovider.md).TickListDataProvider
 
-A data provider for ticks that is backed by an in-memory array of ticks.
-
 ## Implements
 
 * [*TickDataProvider*](../interfaces/entities_tickdataprovider.tickdataprovider.md)
-
-## Table of contents
-
-### Constructors
-
-- [constructor](entities_ticklistdataprovider.ticklistdataprovider.md#constructor)
-
-### Properties
-
-- [ticks](entities_ticklistdataprovider.ticklistdataprovider.md#ticks)
-
-### Methods
-
-- [getTick](entities_ticklistdataprovider.ticklistdataprovider.md#gettick)
-- [nextInitializedTickWithinOneWord](entities_ticklistdataprovider.ticklistdataprovider.md#nextinitializedtickwithinoneword)
 
 ## Constructors
 
@@ -39,14 +24,6 @@ A data provider for ticks that is backed by an in-memory array of ticks.
 | `tickSpacing` | *number* |
 
 **Returns:** [*TickListDataProvider*](entities_ticklistdataprovider.ticklistdataprovider.md)
-
-Defined in: [entities/tickListDataProvider.ts:10](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/tickListDataProvider.ts#L10)
-
-## Properties
-
-### ticks
-
-• `Private` **ticks**: readonly [*Tick*](entities_tick.tick.md)[]
 
 Defined in: [entities/tickListDataProvider.ts:10](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/tickListDataProvider.ts#L10)
 

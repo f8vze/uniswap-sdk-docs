@@ -1,4 +1,6 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / selfPermit
+---
+Id: 
+---
 
 # Module: selfPermit
 
@@ -7,10 +9,6 @@
 ### Classes
 
 - [SelfPermit](../classes/selfpermit.selfpermit-1.md)
-
-### Type aliases
-
-- [PermitOptions](selfpermit.md#permitoptions)
 
 ## Type aliases
 

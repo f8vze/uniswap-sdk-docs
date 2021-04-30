@@ -1,21 +1,10 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [swapRouter](../modules/swaprouter.md) / TradeOptions
+---
+Id: 
+---
 
 # Interface: TradeOptions
 
 [swapRouter](../modules/swaprouter.md).TradeOptions
-
-Options for producing the arguments to send call to the router.
-
-## Table of contents
-
-### Properties
-
-- [deadline](swaprouter.tradeoptions.md#deadline)
-- [inputTokenPermit](swaprouter.tradeoptions.md#inputtokenpermit)
-- [recipient](swaprouter.tradeoptions.md#recipient)
-- [slippageTolerance](swaprouter.tradeoptions.md#slippagetolerance)
-- [sqrtPriceLimitX96](swaprouter.tradeoptions.md#sqrtpricelimitx96)
-- [swapRouterAddressOverride](swaprouter.tradeoptions.md#swaprouteraddressoverride)
 
 ## Properties
 

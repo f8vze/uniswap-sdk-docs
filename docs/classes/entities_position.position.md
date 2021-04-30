@@ -1,40 +1,10 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [entities/position](../modules/entities_position.md) / Position
+---
+Id: 
+---
 
 # Class: Position
 
 [entities/position](../modules/entities_position.md).Position
-
-Represents a position on a Uniswap V3 Pool
-
-## Table of contents
-
-### Constructors
-
-- [constructor](entities_position.position.md#constructor)
-
-### Properties
-
-- [\_mintAmounts](entities_position.position.md#_mintamounts)
-- [\_token0Amount](entities_position.position.md#_token0amount)
-- [\_token1Amount](entities_position.position.md#_token1amount)
-- [liquidity](entities_position.position.md#liquidity)
-- [pool](entities_position.position.md#pool)
-- [tickLower](entities_position.position.md#ticklower)
-- [tickUpper](entities_position.position.md#tickupper)
-
-### Accessors
-
-- [amount0](entities_position.position.md#amount0)
-- [amount1](entities_position.position.md#amount1)
-- [mintAmounts](entities_position.position.md#mintamounts)
-- [token0PriceLower](entities_position.position.md#token0pricelower)
-- [token0PriceUpper](entities_position.position.md#token0priceupper)
-
-### Methods
-
-- [fromAmount0](entities_position.position.md#fromamount0)
-- [fromAmount1](entities_position.position.md#fromamount1)
-- [fromAmounts](entities_position.position.md#fromamounts)
 
 ## Constructors
 
@@ -55,30 +25,6 @@ Constructs a position for a given pool with the given liquidity
 Defined in: [entities/position.ts:30](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/position.ts#L30)
 
 ## Properties
-
-### \_mintAmounts
-
-• `Private` **\_mintAmounts**: ``null`` \| *Readonly*<{ `amount0`: *default* ; `amount1`: *default*  }\>= null
-
-Defined in: [entities/position.ts:30](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/position.ts#L30)
-
-___
-
-### \_token0Amount
-
-• `Private` **\_token0Amount**: ``null`` \| *default*= null
-
-Defined in: [entities/position.ts:28](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/position.ts#L28)
-
-___
-
-### \_token1Amount
-
-• `Private` **\_token1Amount**: ``null`` \| *default*= null
-
-Defined in: [entities/position.ts:29](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/position.ts#L29)
-
-___
 
 ### liquidity
 

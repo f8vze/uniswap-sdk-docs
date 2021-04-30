@@ -1,18 +1,10 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [constants](../modules/constants.md) / FeeAmount
+---
+Id: 
+---
 
 # Enumeration: FeeAmount
 
 [constants](../modules/constants.md).FeeAmount
-
-The default factory enabled fee amounts, denominated in hundredths of bips.
-
-## Table of contents
-
-### Enumeration members
-
-- [HIGH](constants.feeamount.md#high)
-- [LOW](constants.feeamount.md#low)
-- [MEDIUM](constants.feeamount.md#medium)
 
 ## Enumeration members
 

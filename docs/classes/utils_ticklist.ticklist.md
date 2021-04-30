@@ -1,59 +1,12 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [utils/tickList](../modules/utils_ticklist.md) / TickList
+---
+Id: 
+---
 
 # Class: TickList
 
 [utils/tickList](../modules/utils_ticklist.md).TickList
 
-Utility methods for interacting with sorted lists of ticks
-
-## Table of contents
-
-### Constructors
-
-- [constructor](utils_ticklist.ticklist.md#constructor)
-
-### Methods
-
-- [binarySearch](utils_ticklist.ticklist.md#binarysearch)
-- [getTick](utils_ticklist.ticklist.md#gettick)
-- [isAtOrAboveLargest](utils_ticklist.ticklist.md#isatorabovelargest)
-- [isBelowSmallest](utils_ticklist.ticklist.md#isbelowsmallest)
-- [nextInitializedTick](utils_ticklist.ticklist.md#nextinitializedtick)
-- [nextInitializedTickWithinOneWord](utils_ticklist.ticklist.md#nextinitializedtickwithinoneword)
-- [validateList](utils_ticklist.ticklist.md#validatelist)
-
-## Constructors
-
-### constructor
-
-\+ `Private`**new TickList**(): [*TickList*](utils_ticklist.ticklist.md)
-
-Cannot be constructed
-
-**Returns:** [*TickList*](utils_ticklist.ticklist.md)
-
-Defined in: [utils/tickList.ts:14](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/utils/tickList.ts#L14)
-
 ## Methods
-
-### binarySearch
-
-▸ `Static` `Private`**binarySearch**(`ticks`: readonly [*Tick*](entities_tick.tick.md)[], `tick`: *number*): *number*
-
-Finds the largest tick in the list of ticks that is less than or equal to tick
-
-#### Parameters:
-
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `ticks` | readonly [*Tick*](entities_tick.tick.md)[] | list of ticks |
-| `tick` | *number* | tick to find the largest tick that is less than or equal to tick |
-
-**Returns:** *number*
-
-Defined in: [utils/tickList.ts:62](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/utils/tickList.ts#L62)
-
-___
 
 ### getTick
 

@@ -1,16 +1,10 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [entities/tick](../modules/entities_tick.md) / TickConstructorArgs
+---
+Id: 
+---
 
 # Interface: TickConstructorArgs
 
 [entities/tick](../modules/entities_tick.md).TickConstructorArgs
-
-## Table of contents
-
-### Properties
-
-- [index](entities_tick.tickconstructorargs.md#index)
-- [liquidityGross](entities_tick.tickconstructorargs.md#liquiditygross)
-- [liquidityNet](entities_tick.tickconstructorargs.md#liquiditynet)
 
 ## Properties
 

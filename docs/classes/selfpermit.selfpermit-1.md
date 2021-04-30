@@ -1,4 +1,6 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [selfPermit](../modules/selfpermit.md) / SelfPermit
+---
+Id: 
+---
 
 # Class: SelfPermit
 
@@ -11,20 +13,6 @@
   ↳ [*NonfungiblePositionManager*](nonfungiblepositionmanager.nonfungiblepositionmanager-1.md)
 
   ↳ [*SwapRouter*](swaprouter.swaprouter-1.md)
-
-## Table of contents
-
-### Constructors
-
-- [constructor](selfpermit.selfpermit-1.md#constructor)
-
-### Properties
-
-- [INTERFACE](selfpermit.selfpermit-1.md#interface)
-
-### Methods
-
-- [encodePermit](selfpermit.selfpermit-1.md#encodepermit)
 
 ## Constructors
 

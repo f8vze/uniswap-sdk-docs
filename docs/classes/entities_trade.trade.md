@@ -1,75 +1,12 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [entities/trade](../modules/entities_trade.md) / Trade
+---
+Id: 
+---
 
 # Class: Trade
 
 [entities/trade](../modules/entities_trade.md).Trade
 
-Represents a trade executed against a list of pools.
-Does not account for slippage, i.e. trades that front run this trade and move the price.
-
-## Table of contents
-
-### Constructors
-
-- [constructor](entities_trade.trade.md#constructor)
-
-### Properties
-
-- [\_executionPrice](entities_trade.trade.md#_executionprice)
-- [inputAmount](entities_trade.trade.md#inputamount)
-- [outputAmount](entities_trade.trade.md#outputamount)
-- [route](entities_trade.trade.md#route)
-- [tradeType](entities_trade.trade.md#tradetype)
-
-### Accessors
-
-- [executionPrice](entities_trade.trade.md#executionprice)
-
-### Methods
-
-- [maximumAmountIn](entities_trade.trade.md#maximumamountin)
-- [minimumAmountOut](entities_trade.trade.md#minimumamountout)
-- [worstExecutionPrice](entities_trade.trade.md#worstexecutionprice)
-- [bestTradeExactIn](entities_trade.trade.md#besttradeexactin)
-- [bestTradeExactOut](entities_trade.trade.md#besttradeexactout)
-- [createUncheckedTrade](entities_trade.trade.md#createuncheckedtrade)
-- [exactIn](entities_trade.trade.md#exactin)
-- [exactOut](entities_trade.trade.md#exactout)
-- [fromRoute](entities_trade.trade.md#fromroute)
-
-## Constructors
-
-### constructor
-
-\+ `Private`**new Trade**(`__namedParameters`: { `inputAmount`: *default* ; `outputAmount`: *default* ; `route`: [*Route*](entities_route.route.md) ; `tradeType`: TradeType  }): [*Trade*](entities_trade.trade.md)
-
-Construct a trade by passing in the pre-computed property values
-
-#### Parameters:
-
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `__namedParameters` | *object* | - |
-| `__namedParameters.inputAmount` | *default* | the amount of input paid in the trade |
-| `__namedParameters.outputAmount` | *default* | the amount of output received in the trade |
-| `__namedParameters.route` | [*Route*](entities_route.route.md) | the route through which the trade occurs |
-| `__namedParameters.tradeType` | TradeType | the type of trade, exact input or exact output |
-
-**Returns:** [*Trade*](entities_trade.trade.md)
-
-Defined in: [entities/trade.ts:189](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/trade.ts#L189)
-
 ## Properties
-
-### \_executionPrice
-
-• `Private` **\_executionPrice**: *undefined* \| *default*
-
-The cached result of the computed execution price
-
-Defined in: [entities/trade.ts:97](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/trade.ts#L97)
-
-___
 
 ### inputAmount
 

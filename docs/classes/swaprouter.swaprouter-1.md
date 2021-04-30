@@ -1,46 +1,16 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [swapRouter](../modules/swaprouter.md) / SwapRouter
+---
+Id: 
+---
 
 # Class: SwapRouter
 
 [swapRouter](../modules/swaprouter.md).SwapRouter
-
-Represents the Uniswap V2 SwapRouter, and has static methods for helping execute trades.
 
 ## Hierarchy
 
 * [*SelfPermit*](selfpermit.selfpermit-1.md)
 
   ↳ **SwapRouter**
-
-## Table of contents
-
-### Constructors
-
-- [constructor](swaprouter.swaprouter-1.md#constructor)
-
-### Properties
-
-- [ADDRESS](swaprouter.swaprouter-1.md#address)
-- [INTERFACE](swaprouter.swaprouter-1.md#interface)
-
-### Methods
-
-- [encodePermit](swaprouter.swaprouter-1.md#encodepermit)
-- [swapCallParameters](swaprouter.swaprouter-1.md#swapcallparameters)
-
-## Constructors
-
-### constructor
-
-\+ `Private`**new SwapRouter**(): [*SwapRouter*](swaprouter.swaprouter-1.md)
-
-Cannot be constructed.
-
-**Returns:** [*SwapRouter*](swaprouter.swaprouter-1.md)
-
-Overrides: [SelfPermit](selfpermit.selfpermit-1.md)
-
-Defined in: [swapRouter.ts:49](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/swapRouter.ts#L49)
 
 ## Properties
 

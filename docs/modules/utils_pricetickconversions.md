@@ -1,13 +1,8 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / utils/priceTickConversions
+---
+Id: 
+---
 
 # Module: utils/priceTickConversions
-
-## Table of contents
-
-### Functions
-
-- [priceToClosestTick](utils_pricetickconversions.md#pricetoclosesttick)
-- [tickToPrice](utils_pricetickconversions.md#ticktoprice)
 
 ## Functions
 

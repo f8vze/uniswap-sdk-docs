@@ -1,23 +1,10 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [nonfungiblePositionManager](../modules/nonfungiblepositionmanager.md) / DecreaseLiquidityOptions
+---
+Id: 
+---
 
 # Interface: DecreaseLiquidityOptions
 
 [nonfungiblePositionManager](../modules/nonfungiblepositionmanager.md).DecreaseLiquidityOptions
-
-Options for producing the calldata to exit a position.
-
-## Table of contents
-
-### Properties
-
-- [burnToken](nonfungiblepositionmanager.decreaseliquidityoptions.md#burntoken)
-- [deadline](nonfungiblepositionmanager.decreaseliquidityoptions.md#deadline)
-- [liquidityPercentage](nonfungiblepositionmanager.decreaseliquidityoptions.md#liquiditypercentage)
-- [nonfungiblePositionManagerAddressOverride](nonfungiblepositionmanager.decreaseliquidityoptions.md#nonfungiblepositionmanageraddressoverride)
-- [receiveEther](nonfungiblepositionmanager.decreaseliquidityoptions.md#receiveether)
-- [recipient](nonfungiblepositionmanager.decreaseliquidityoptions.md#recipient)
-- [slippageTolerance](nonfungiblepositionmanager.decreaseliquidityoptions.md#slippagetolerance)
-- [tokenId](nonfungiblepositionmanager.decreaseliquidityoptions.md#tokenid)
 
 ## Properties
 

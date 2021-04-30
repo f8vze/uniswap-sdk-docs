@@ -1,8 +1,3 @@
----
-slug: /
----
-
-
 @uniswap/v3-sdk / [Exports](modules.md)
 
 # Work in progress

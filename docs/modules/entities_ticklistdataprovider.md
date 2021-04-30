@@ -1,4 +1,6 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / entities/tickListDataProvider
+---
+Id: 
+---
 
 # Module: entities/tickListDataProvider
 

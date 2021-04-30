@@ -1,4 +1,6 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / nonfungiblePositionManager
+---
+Id: 
+---
 
 # Module: nonfungiblePositionManager
 
@@ -12,10 +14,6 @@
 
 - [DecreaseLiquidityOptions](../interfaces/nonfungiblepositionmanager.decreaseliquidityoptions.md)
 - [NFTPermitOptions](../interfaces/nonfungiblepositionmanager.nftpermitoptions.md)
-
-### Type aliases
-
-- [IncreaseLiquidityOptions](nonfungiblepositionmanager.md#increaseliquidityoptions)
 
 ## Type aliases
 

@@ -1,17 +1,10 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [utils/calldata](../modules/utils_calldata.md) / MethodParameters
+---
+Id: 
+---
 
 # Interface: MethodParameters
 
 [utils/calldata](../modules/utils_calldata.md).MethodParameters
-
-Generated method parameters for executing a call.
-
-## Table of contents
-
-### Properties
-
-- [calldata](utils_calldata.methodparameters.md#calldata)
-- [value](utils_calldata.methodparameters.md#value)
 
 ## Properties
 
