@@ -53,14 +53,14 @@ ___
 
 ### encodePermit
 
-▸ `Static`**encodePermit**(`token`: *Token*, `options`: [*PermitOptions*](../modules/selfpermit.md#permitoptions)): *string*
+▸ `Static`**encodePermit**(`token`: *Token*, `options`: [*PermitOptions*](../types/selfpermit.permitoptions.md)): *string*
 
 #### Parameters:
 
 | Name | Type |
 | :------ | :------ |
 | `token` | *Token* |
-| `options` | [*PermitOptions*](../modules/selfpermit.md#permitoptions) |
+| `options` | [*PermitOptions*](../types/selfpermit.permitoptions.md) |
 
 **Returns:** *string*
 
@@ -72,14 +72,14 @@ ___
 
 ### increaseCallParameters
 
-▸ `Static`**increaseCallParameters**(`position`: [*Position*](entities_position.position.md), `options`: [*IncreaseLiquidityOptions*](../modules/nonfungiblepositionmanager.md#increaseliquidityoptions)): [*MethodParameters*](../interfaces/utils_calldata.methodparameters.md)
+▸ `Static`**increaseCallParameters**(`position`: [*Position*](entities_position.position.md), `options`: [*IncreaseLiquidityOptions*](../types/nonfungiblepositionmanager.increaseliquidityoptions.md)): [*MethodParameters*](../interfaces/utils_calldata.methodparameters.md)
 
 #### Parameters:
 
 | Name | Type |
 | :------ | :------ |
 | `position` | [*Position*](entities_position.position.md) |
-| `options` | [*IncreaseLiquidityOptions*](../modules/nonfungiblepositionmanager.md#increaseliquidityoptions) |
+| `options` | [*IncreaseLiquidityOptions*](../types/nonfungiblepositionmanager.increaseliquidityoptions.md) |
 
 **Returns:** [*MethodParameters*](../interfaces/utils_calldata.methodparameters.md)
 

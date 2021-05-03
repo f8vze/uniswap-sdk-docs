@@ -15,10 +15,6 @@ Id:
 - [DecreaseLiquidityOptions](../interfaces/nonfungiblepositionmanager.decreaseliquidityoptions.md)
 - [NFTPermitOptions](../interfaces/nonfungiblepositionmanager.nftpermitoptions.md)
 
-## Type aliases
+### Type aliases
 
-### IncreaseLiquidityOptions
-
-Ƭ **IncreaseLiquidityOptions**: CommonIncreaseLiquidityOptions & MintOptions \| CommonIncreaseLiquidityOptions & IncreaseOptions
-
-Defined in: [nonfungiblePositionManager.ts:72](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/nonfungiblePositionManager.ts#L72)
+- [IncreaseLiquidityOptions](../types/nonfungiblepositionmanager.increaseliquidityoptions.md)

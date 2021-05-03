@@ -44,58 +44,58 @@ ___
 
 ### computePoolAddress
 
-Re-exports: [computePoolAddress](utils_computepooladdress.md#computepooladdress)
+Re-exports: [computePoolAddress](../functions/utils_computepooladdress.computepooladdress.md)
 
 ___
 
 ### encodeRouteToPath
 
-Re-exports: [encodeRouteToPath](utils_encoderoutetopath.md#encoderoutetopath)
+Re-exports: [encodeRouteToPath](../functions/utils_encoderoutetopath.encoderoutetopath.md)
 
 ___
 
 ### encodeSqrtRatioX96
 
-Re-exports: [encodeSqrtRatioX96](utils_encodesqrtratiox96.md#encodesqrtratiox96)
+Re-exports: [encodeSqrtRatioX96](../functions/utils_encodesqrtratiox96.encodesqrtratiox96.md)
 
 ___
 
 ### isSorted
 
-Re-exports: [isSorted](utils_issorted.md#issorted)
+Re-exports: [isSorted](../functions/utils_issorted.issorted.md)
 
 ___
 
 ### maxLiquidityForAmounts
 
-Re-exports: [maxLiquidityForAmounts](utils_maxliquidityforamounts.md#maxliquidityforamounts)
+Re-exports: [maxLiquidityForAmounts](../functions/utils_maxliquidityforamounts.maxliquidityforamounts.md)
 
 ___
 
 ### mostSignificantBit
 
-Re-exports: [mostSignificantBit](utils_mostsignificantbit.md#mostsignificantbit)
+Re-exports: [mostSignificantBit](../functions/utils_mostsignificantbit.mostsignificantbit.md)
 
 ___
 
 ### nearestUsableTick
 
-Re-exports: [nearestUsableTick](utils_nearestusabletick.md#nearestusabletick)
+Re-exports: [nearestUsableTick](../functions/utils_nearestusabletick.nearestusabletick.md)
 
 ___
 
 ### priceToClosestTick
 
-Re-exports: [priceToClosestTick](utils_pricetickconversions.md#pricetoclosesttick)
+Re-exports: [priceToClosestTick](../functions/utils_pricetickconversions.pricetoclosesttick.md)
 
 ___
 
 ### tickToPrice
 
-Re-exports: [tickToPrice](utils_pricetickconversions.md#ticktoprice)
+Re-exports: [tickToPrice](../functions/utils_pricetickconversions.ticktoprice.md)
 
 ___
 
 ### toHex
 
-Re-exports: [toHex](utils_calldata.md#tohex)
+Re-exports: [toHex](../functions/utils_calldata.tohex.md)

@@ -68,4 +68,4 @@ ___
 
 ### tradeComparator
 
-Re-exports: [tradeComparator](entities_trade.md#tradecomparator)
+Re-exports: [tradeComparator](../functions/entities_trade.tradecomparator.md)

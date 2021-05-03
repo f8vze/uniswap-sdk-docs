@@ -10,10 +10,6 @@ Id:
 
 - [SelfPermit](../classes/selfpermit.selfpermit-1.md)
 
-## Type aliases
+### Type aliases
 
-### PermitOptions
-
-Ƭ **PermitOptions**: StandardPermitArguments \| AllowedPermitArguments
-
-Defined in: [selfPermit.ts:22](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/selfPermit.ts#L22)
+- [PermitOptions](../types/selfpermit.permitoptions.md)

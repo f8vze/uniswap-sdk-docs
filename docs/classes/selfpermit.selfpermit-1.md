@@ -36,14 +36,14 @@ Defined in: [selfPermit.ts:30](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a
 
 ### encodePermit
 
-▸ `Static`**encodePermit**(`token`: *Token*, `options`: [*PermitOptions*](../modules/selfpermit.md#permitoptions)): *string*
+▸ `Static`**encodePermit**(`token`: *Token*, `options`: [*PermitOptions*](../types/selfpermit.permitoptions.md)): *string*
 
 #### Parameters:
 
 | Name | Type |
 | :------ | :------ |
 | `token` | *Token* |
-| `options` | [*PermitOptions*](../modules/selfpermit.md#permitoptions) |
+| `options` | [*PermitOptions*](../types/selfpermit.permitoptions.md) |
 
 **Returns:** *string*
 
