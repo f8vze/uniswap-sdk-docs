@@ -1,6 +1,4 @@
----
-Id: 
----
+[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [utils/tickMath](../modules/utils_tickmath.md) / TickMath
 
 # Class: TickMath
 
@@ -14,7 +12,7 @@ Id:
 
 The sqrt ratio corresponding to the maximum tick that could be used on any pool.
 
-Defined in: [utils/tickMath.ts:35](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/utils/tickMath.ts#L35)
+Defined in: [utils/tickMath.ts:35](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/tickMath.ts#L35)
 
 ___
 
@@ -24,7 +22,7 @@ ___
 
 The maximum tick that can be used on any pool.
 
-Defined in: [utils/tickMath.ts:26](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/utils/tickMath.ts#L26)
+Defined in: [utils/tickMath.ts:26](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/tickMath.ts#L26)
 
 ___
 
@@ -34,7 +32,7 @@ ___
 
 The sqrt ratio corresponding to the minimum tick that could be used on any pool.
 
-Defined in: [utils/tickMath.ts:31](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/utils/tickMath.ts#L31)
+Defined in: [utils/tickMath.ts:31](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/tickMath.ts#L31)
 
 ___
 
@@ -44,7 +42,7 @@ ___
 
 The minimum tick that can be used on any pool.
 
-Defined in: [utils/tickMath.ts:22](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/utils/tickMath.ts#L22)
+Defined in: [utils/tickMath.ts:22](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/tickMath.ts#L22)
 
 ## Methods
 
@@ -62,7 +60,7 @@ Returns the sqrt ratio as a Q64.96 for the given tick. The sqrt ratio is compute
 
 **Returns:** *default*
 
-Defined in: [utils/tickMath.ts:41](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/utils/tickMath.ts#L41)
+Defined in: [utils/tickMath.ts:41](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/tickMath.ts#L41)
 
 ___
 
@@ -81,4 +79,4 @@ and #getSqrtRatioAtTick(tick + 1) > sqrtRatioX96
 
 **Returns:** *number*
 
-Defined in: [utils/tickMath.ts:82](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/utils/tickMath.ts#L82)
+Defined in: [utils/tickMath.ts:82](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/tickMath.ts#L82)

@@ -1,10 +1,10 @@
----
-Id: 
----
+[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [entities/tickDataProvider](../modules/entities_tickdataprovider.md) / TickDataProvider
 
 # Interface: TickDataProvider
 
 [entities/tickDataProvider](../modules/entities_tickdataprovider.md).TickDataProvider
+
+Provides information about ticks
 
 ## Implemented by
 
@@ -27,7 +27,7 @@ Return information corresponding to a specific tick
 
 **Returns:** *Promise*<{ `liquidityNet`: BigintIsh  }\>
 
-Defined in: [entities/tickDataProvider.ts:11](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/tickDataProvider.ts#L11)
+Defined in: [entities/tickDataProvider.ts:11](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/tickDataProvider.ts#L11)
 
 ___
 
@@ -47,4 +47,4 @@ Return the next tick that is initialized within a single word
 
 **Returns:** *Promise*<[*number*, *boolean*]\>
 
-Defined in: [entities/tickDataProvider.ts:19](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/tickDataProvider.ts#L19)
+Defined in: [entities/tickDataProvider.ts:19](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/tickDataProvider.ts#L19)

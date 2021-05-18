@@ -18,4 +18,4 @@
 
 **Returns:** *string*
 
-Defined in: [utils/computePoolAddress.ts:7](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/utils/computePoolAddress.ts#L7)
+Defined in: [utils/computePoolAddress.ts:7](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/computePoolAddress.ts#L7)

@@ -14,4 +14,4 @@
 
 **Returns:** *number*
 
-Defined in: [utils/mostSignificantBit.ts:12](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/utils/mostSignificantBit.ts#L12)
+Defined in: [utils/mostSignificantBit.ts:12](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/mostSignificantBit.ts#L12)

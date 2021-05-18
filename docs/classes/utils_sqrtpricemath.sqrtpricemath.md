@@ -1,6 +1,4 @@
----
-Id: 
----
+[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [utils/sqrtPriceMath](../modules/utils_sqrtpricemath.md) / SqrtPriceMath
 
 # Class: SqrtPriceMath
 
@@ -23,7 +21,7 @@ Id:
 
 **Returns:** *default*
 
-Defined in: [utils/sqrtPriceMath.ts:25](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/utils/sqrtPriceMath.ts#L25)
+Defined in: [utils/sqrtPriceMath.ts:25](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/sqrtPriceMath.ts#L25)
 
 ___
 
@@ -42,7 +40,7 @@ ___
 
 **Returns:** *default*
 
-Defined in: [utils/sqrtPriceMath.ts:38](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/utils/sqrtPriceMath.ts#L38)
+Defined in: [utils/sqrtPriceMath.ts:38](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/sqrtPriceMath.ts#L38)
 
 ___
 
@@ -61,7 +59,7 @@ ___
 
 **Returns:** *default*
 
-Defined in: [utils/sqrtPriceMath.ts:48](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/utils/sqrtPriceMath.ts#L48)
+Defined in: [utils/sqrtPriceMath.ts:48](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/sqrtPriceMath.ts#L48)
 
 ___
 
@@ -80,4 +78,4 @@ ___
 
 **Returns:** *default*
 
-Defined in: [utils/sqrtPriceMath.ts:57](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/utils/sqrtPriceMath.ts#L57)
+Defined in: [utils/sqrtPriceMath.ts:57](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/sqrtPriceMath.ts#L57)

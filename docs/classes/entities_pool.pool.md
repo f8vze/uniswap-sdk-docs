@@ -1,10 +1,10 @@
----
-Id: 
----
+[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [entities/pool](../modules/entities_pool.md) / Pool
 
 # Class: Pool
 
 [entities/pool](../modules/entities_pool.md).Pool
+
+Represents a V3 pool
 
 ## Constructors
 
@@ -28,7 +28,7 @@ Construct a pool
 
 **Returns:** [*Pool*](entities_pool.pool.md)
 
-Defined in: [entities/pool.ts:46](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/pool.ts#L46)
+Defined in: [entities/pool.ts:46](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/pool.ts#L46)
 
 ## Properties
 
@@ -36,7 +36,7 @@ Defined in: [entities/pool.ts:46](https://github.com/Uniswap/uniswap-v3-sdk/blob
 
 • `Readonly` **fee**: [*FeeAmount*](../enums/constants.feeamount.md)
 
-Defined in: [entities/pool.ts:35](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/pool.ts#L35)
+Defined in: [entities/pool.ts:35](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/pool.ts#L35)
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 • `Readonly` **liquidity**: *default*
 
-Defined in: [entities/pool.ts:37](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/pool.ts#L37)
+Defined in: [entities/pool.ts:37](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/pool.ts#L37)
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 • `Readonly` **sqrtRatioX96**: *default*
 
-Defined in: [entities/pool.ts:36](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/pool.ts#L36)
+Defined in: [entities/pool.ts:36](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/pool.ts#L36)
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 • `Readonly` **tickCurrent**: *number*
 
-Defined in: [entities/pool.ts:38](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/pool.ts#L38)
+Defined in: [entities/pool.ts:38](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/pool.ts#L38)
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 • `Readonly` **tickDataProvider**: [*TickDataProvider*](../interfaces/entities_tickdataprovider.tickdataprovider.md)
 
-Defined in: [entities/pool.ts:39](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/pool.ts#L39)
+Defined in: [entities/pool.ts:39](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/pool.ts#L39)
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 • `Readonly` **token0**: *Token*
 
-Defined in: [entities/pool.ts:33](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/pool.ts#L33)
+Defined in: [entities/pool.ts:33](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/pool.ts#L33)
 
 ___
 
@@ -84,7 +84,7 @@ ___
 
 • `Readonly` **token1**: *Token*
 
-Defined in: [entities/pool.ts:34](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/pool.ts#L34)
+Defined in: [entities/pool.ts:34](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/pool.ts#L34)
 
 ## Accessors
 
@@ -96,7 +96,7 @@ Returns the chain ID of the tokens in the pool.
 
 **Returns:** *number*
 
-Defined in: [entities/pool.ts:135](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/pool.ts#L135)
+Defined in: [entities/pool.ts:135](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/pool.ts#L135)
 
 ___
 
@@ -106,37 +106,37 @@ ___
 
 **Returns:** *number*
 
-Defined in: [entities/pool.ts:279](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/pool.ts#L279)
+Defined in: [entities/pool.ts:287](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/pool.ts#L287)
 
 ___
 
 ### token0Price
 
-• get **token0Price**(): *default*
+• get **token0Price**(): *Price*<Token, Token\>
 
 Returns the current mid price of the pool in terms of token0, i.e. the ratio of token1 over token0
 
-**Returns:** *default*
+**Returns:** *Price*<Token, Token\>
 
-Defined in: [entities/pool.ts:96](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/pool.ts#L96)
+Defined in: [entities/pool.ts:96](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/pool.ts#L96)
 
 ___
 
 ### token1Price
 
-• get **token1Price**(): *default*
+• get **token1Price**(): *Price*<Token, Token\>
 
 Returns the current mid price of the pool in terms of token1, i.e. the ratio of token0 over token1
 
-**Returns:** *default*
+**Returns:** *Price*<Token, Token\>
 
-Defined in: [entities/pool.ts:111](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/pool.ts#L111)
+Defined in: [entities/pool.ts:111](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/pool.ts#L111)
 
 ## Methods
 
 ### getInputAmount
 
-▸ **getInputAmount**(`outputAmount`: *default*): *Promise*<[*default*, [*Pool*](entities_pool.pool.md)]\>
+▸ **getInputAmount**(`outputAmount`: *CurrencyAmount*<Token\>, `sqrtPriceLimitX96?`: *default*): *Promise*<[*CurrencyAmount*<Token\>, [*Pool*](entities_pool.pool.md)]\>
 
 Given a desired output amount of a token, return the computed input amount and a pool with state updated after the trade
 
@@ -144,17 +144,18 @@ Given a desired output amount of a token, return the computed input amount and a
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `outputAmount` | *default* | the output amount for which to quote the input amount |
+| `outputAmount` | *CurrencyAmount*<Token\> | the output amount for which to quote the input amount |
+| `sqrtPriceLimitX96?` | *default* | - |
 
-**Returns:** *Promise*<[*default*, [*Pool*](entities_pool.pool.md)]\>
+**Returns:** *Promise*<[*CurrencyAmount*<Token\>, [*Pool*](entities_pool.pool.md)]\>
 
-Defined in: [entities/pool.ts:163](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/pool.ts#L163)
+Defined in: [entities/pool.ts:167](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/pool.ts#L167)
 
 ___
 
 ### getOutputAmount
 
-▸ **getOutputAmount**(`inputAmount`: *default*): *Promise*<[*default*, [*Pool*](entities_pool.pool.md)]\>
+▸ **getOutputAmount**(`inputAmount`: *CurrencyAmount*<Token\>, `sqrtPriceLimitX96?`: *default*): *Promise*<[*CurrencyAmount*<Token\>, [*Pool*](entities_pool.pool.md)]\>
 
 Given an input amount of a token, return the computed output amount and a pool with state updated after the trade
 
@@ -162,11 +163,12 @@ Given an input amount of a token, return the computed output amount and a pool w
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `inputAmount` | *default* | the input amount for which to quote the output amount |
+| `inputAmount` | *CurrencyAmount*<Token\> | the input amount for which to quote the output amount |
+| `sqrtPriceLimitX96?` | *default* | - |
 
-**Returns:** *Promise*<[*default*, [*Pool*](entities_pool.pool.md)]\>
+**Returns:** *Promise*<[*CurrencyAmount*<Token\>, [*Pool*](entities_pool.pool.md)]\>
 
-Defined in: [entities/pool.ts:143](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/pool.ts#L143)
+Defined in: [entities/pool.ts:143](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/pool.ts#L143)
 
 ___
 
@@ -184,13 +186,13 @@ Returns true if the token is either token0 or token1
 
 **Returns:** *boolean*
 
-Defined in: [entities/pool.ts:89](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/pool.ts#L89)
+Defined in: [entities/pool.ts:89](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/pool.ts#L89)
 
 ___
 
 ### priceOf
 
-▸ **priceOf**(`token`: *Token*): *default*
+▸ **priceOf**(`token`: *Token*): *Price*<Token, Token\>
 
 Return the price of the given token in terms of the other token in the pool.
 
@@ -200,9 +202,9 @@ Return the price of the given token in terms of the other token in the pool.
 | :------ | :------ | :------ |
 | `token` | *Token* | token to return price of |
 
-**Returns:** *default*
+**Returns:** *Price*<Token, Token\>
 
-Defined in: [entities/pool.ts:127](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/pool.ts#L127)
+Defined in: [entities/pool.ts:127](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/pool.ts#L127)
 
 ___
 
@@ -220,4 +222,4 @@ ___
 
 **Returns:** *string*
 
-Defined in: [entities/pool.ts:44](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/pool.ts#L44)
+Defined in: [entities/pool.ts:44](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/pool.ts#L44)

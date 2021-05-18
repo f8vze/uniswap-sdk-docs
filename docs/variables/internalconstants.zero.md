@@ -6,4 +6,4 @@
 
 • `Const` **ZERO**: *default*
 
-Defined in: [internalConstants.ts:5](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/internalConstants.ts#L5)
+Defined in: [internalConstants.ts:5](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/internalConstants.ts#L5)

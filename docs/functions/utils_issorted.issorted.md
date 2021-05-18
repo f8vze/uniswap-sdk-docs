@@ -21,4 +21,4 @@
 
 **Returns:** *boolean*
 
-Defined in: [utils/isSorted.ts:1](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/utils/isSorted.ts#L1)
+Defined in: [utils/isSorted.ts:1](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/isSorted.ts#L1)

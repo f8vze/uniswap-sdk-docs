@@ -1,10 +1,10 @@
----
-Id: 
----
+[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [entities/tickListDataProvider](../modules/entities_ticklistdataprovider.md) / TickListDataProvider
 
 # Class: TickListDataProvider
 
 [entities/tickListDataProvider](../modules/entities_ticklistdataprovider.md).TickListDataProvider
+
+A data provider for ticks that is backed by an in-memory array of ticks.
 
 ## Implements
 
@@ -25,7 +25,7 @@ Id:
 
 **Returns:** [*TickListDataProvider*](entities_ticklistdataprovider.ticklistdataprovider.md)
 
-Defined in: [entities/tickListDataProvider.ts:10](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/tickListDataProvider.ts#L10)
+Defined in: [entities/tickListDataProvider.ts:10](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/tickListDataProvider.ts#L10)
 
 ## Methods
 
@@ -45,7 +45,7 @@ Return information corresponding to a specific tick
 
 Implementation of: [TickDataProvider](../interfaces/entities_tickdataprovider.tickdataprovider.md)
 
-Defined in: [entities/tickListDataProvider.ts:18](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/tickListDataProvider.ts#L18)
+Defined in: [entities/tickListDataProvider.ts:18](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/tickListDataProvider.ts#L18)
 
 ___
 
@@ -67,4 +67,4 @@ Return the next tick that is initialized within a single word
 
 Implementation of: [TickDataProvider](../interfaces/entities_tickdataprovider.tickdataprovider.md)
 
-Defined in: [entities/tickListDataProvider.ts:22](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/tickListDataProvider.ts#L22)
+Defined in: [entities/tickListDataProvider.ts:22](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/tickListDataProvider.ts#L22)

@@ -1,10 +1,10 @@
----
-Id: 
----
+[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [utils/tickList](../modules/utils_ticklist.md) / TickList
 
 # Class: TickList
 
 [utils/tickList](../modules/utils_ticklist.md).TickList
+
+Utility methods for interacting with sorted lists of ticks
 
 ## Methods
 
@@ -21,7 +21,7 @@ Id:
 
 **Returns:** [*Tick*](entities_tick.tick.md)
 
-Defined in: [utils/tickList.ts:50](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/utils/tickList.ts#L50)
+Defined in: [utils/tickList.ts:50](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/tickList.ts#L50)
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 **Returns:** *boolean*
 
-Defined in: [utils/tickList.ts:45](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/utils/tickList.ts#L45)
+Defined in: [utils/tickList.ts:45](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/tickList.ts#L45)
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 **Returns:** *boolean*
 
-Defined in: [utils/tickList.ts:40](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/utils/tickList.ts#L40)
+Defined in: [utils/tickList.ts:40](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/tickList.ts#L40)
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 **Returns:** [*Tick*](entities_tick.tick.md)
 
-Defined in: [utils/tickList.ts:83](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/utils/tickList.ts#L83)
+Defined in: [utils/tickList.ts:83](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/tickList.ts#L83)
 
 ___
 
@@ -92,7 +92,7 @@ ___
 
 **Returns:** [*number*, *boolean*]
 
-Defined in: [utils/tickList.ts:101](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/utils/tickList.ts#L101)
+Defined in: [utils/tickList.ts:101](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/tickList.ts#L101)
 
 ___
 
@@ -109,4 +109,4 @@ ___
 
 **Returns:** *void*
 
-Defined in: [utils/tickList.ts:20](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/utils/tickList.ts#L20)
+Defined in: [utils/tickList.ts:20](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/tickList.ts#L20)

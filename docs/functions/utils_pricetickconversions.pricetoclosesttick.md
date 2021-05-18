@@ -4,7 +4,7 @@
 
 [utils/priceTickConversions](../modules/utils_pricetickconversions.md).priceToClosestTick
 
-▸ **priceToClosestTick**(`price`: Price): *number*
+▸ **priceToClosestTick**(`price`: *Price*<Token, Token\>): *number*
 
 Returns the first tick for which the given price is greater than or equal to the tick price
 
@@ -12,8 +12,8 @@ Returns the first tick for which the given price is greater than or equal to the
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `price` | Price | for which to return the closest tick that represents a price less than or equal to the input price, i.e. the price of the returned tick is less than or equal to the input price |
+| `price` | *Price*<Token, Token\> | for which to return the closest tick that represents a price less than or equal to the input price, i.e. the price of the returned tick is less than or equal to the input price |
 
 **Returns:** *number*
 
-Defined in: [utils/priceTickConversions.ts:30](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/utils/priceTickConversions.ts#L30)
+Defined in: [utils/priceTickConversions.ts:29](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/priceTickConversions.ts#L29)

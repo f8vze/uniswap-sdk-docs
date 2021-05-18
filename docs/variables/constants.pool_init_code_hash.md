@@ -4,6 +4,6 @@
 
 [constants](../modules/constants.md).POOL_INIT_CODE_HASH
 
-• `Const` **POOL\_INIT\_CODE\_HASH**: ``"0xc02f72e8ae5e68802e6d893d58ddfb0df89a2f4c9c2f04927db1186a29373660"``= '0xc02f72e8ae5e68802e6d893d58ddfb0df89a2f4c9c2f04927db1186a29373660'
+• `Const` **POOL\_INIT\_CODE\_HASH**: ``"0xe34f199b19b2b4f47f68442619d555527d244f78a3297ea89325f843f87b8b54"``= '0xe34f199b19b2b4f47f68442619d555527d244f78a3297ea89325f843f87b8b54'
 
-Defined in: [constants.ts:10](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/constants.ts#L10)
+Defined in: [constants.ts:5](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/constants.ts#L5)

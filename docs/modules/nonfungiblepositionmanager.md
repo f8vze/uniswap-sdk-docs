@@ -1,6 +1,4 @@
----
-Id: 
----
+[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / nonfungiblePositionManager
 
 # Module: nonfungiblePositionManager
 
@@ -12,9 +10,15 @@ Id:
 
 ### Interfaces
 
-- [DecreaseLiquidityOptions](../interfaces/nonfungiblepositionmanager.decreaseliquidityoptions.md)
+- [CollectOptions](../interfaces/nonfungiblepositionmanager.collectoptions.md)
+- [CommonAddLiquidityOptions](../interfaces/nonfungiblepositionmanager.commonaddliquidityoptions.md)
+- [IncreaseSpecificOptions](../interfaces/nonfungiblepositionmanager.increasespecificoptions.md)
+- [MintSpecificOptions](../interfaces/nonfungiblepositionmanager.mintspecificoptions.md)
 - [NFTPermitOptions](../interfaces/nonfungiblepositionmanager.nftpermitoptions.md)
+- [RemoveLiquidityOptions](../interfaces/nonfungiblepositionmanager.removeliquidityoptions.md)
 
 ### Type aliases
 
-- [IncreaseLiquidityOptions](../types/nonfungiblepositionmanager.increaseliquidityoptions.md)
+- [AddLiquidityOptions](../types/nonfungiblepositionmanager.addliquidityoptions.md)
+- [IncreaseOptions](../types/nonfungiblepositionmanager.increaseoptions.md)
+- [MintOptions](../types/nonfungiblepositionmanager.mintoptions.md)

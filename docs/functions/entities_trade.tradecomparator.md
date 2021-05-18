@@ -4,15 +4,23 @@
 
 [entities/trade](../modules/entities_trade.md).tradeComparator
 
-▸ **tradeComparator**(`a`: [*Trade*](../classes/entities_trade.trade.md), `b`: [*Trade*](../classes/entities_trade.trade.md)): *number*
+▸ **tradeComparator**<TInput, TOutput, TTradeType\>(`a`: [*Trade*](../classes/entities_trade.trade.md)<TInput, TOutput, TTradeType\>, `b`: [*Trade*](../classes/entities_trade.trade.md)<TInput, TOutput, TTradeType\>): *number*
+
+#### Type parameters:
+
+| Name | Type |
+| :------ | :------ |
+| `TInput` | Currency |
+| `TOutput` | Currency |
+| `TTradeType` | TradeType |
 
 #### Parameters:
 
 | Name | Type |
 | :------ | :------ |
-| `a` | [*Trade*](../classes/entities_trade.trade.md) |
-| `b` | [*Trade*](../classes/entities_trade.trade.md) |
+| `a` | [*Trade*](../classes/entities_trade.trade.md)<TInput, TOutput, TTradeType\> |
+| `b` | [*Trade*](../classes/entities_trade.trade.md)<TInput, TOutput, TTradeType\> |
 
 **Returns:** *number*
 
-Defined in: [entities/trade.ts:22](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/trade.ts#L22)
+Defined in: [entities/trade.ts:22](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/trade.ts#L22)

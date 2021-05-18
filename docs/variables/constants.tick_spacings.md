@@ -8,4 +8,4 @@
 
 The default factory tick spacings by fee amount.
 
-Defined in: [constants.ts:24](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/constants.ts#L24)
+Defined in: [constants.ts:19](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/constants.ts#L19)

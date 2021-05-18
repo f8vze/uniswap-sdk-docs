@@ -1,6 +1,4 @@
----
-Id: 
----
+[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [selfPermit](../modules/selfpermit.md) / SelfPermit
 
 # Class: SelfPermit
 
@@ -22,7 +20,7 @@ Id:
 
 **Returns:** [*SelfPermit*](selfpermit.selfpermit-1.md)
 
-Defined in: [selfPermit.ts:30](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/selfPermit.ts#L30)
+Defined in: [selfPermit.ts:30](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/selfPermit.ts#L30)
 
 ## Properties
 
@@ -30,13 +28,13 @@ Defined in: [selfPermit.ts:30](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a
 
 ▪ `Static` **INTERFACE**: *Interface*
 
-Defined in: [selfPermit.ts:30](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/selfPermit.ts#L30)
+Defined in: [selfPermit.ts:30](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/selfPermit.ts#L30)
 
 ## Methods
 
 ### encodePermit
 
-▸ `Static`**encodePermit**(`token`: *Token*, `options`: [*PermitOptions*](../types/selfpermit.permitoptions.md)): *string*
+▸ `Static` `Protected`**encodePermit**(`token`: *Token*, `options`: [*PermitOptions*](../types/selfpermit.permitoptions.md)): *string*
 
 #### Parameters:
 
@@ -47,4 +45,4 @@ Defined in: [selfPermit.ts:30](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a
 
 **Returns:** *string*
 
-Defined in: [selfPermit.ts:34](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/selfPermit.ts#L34)
+Defined in: [selfPermit.ts:34](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/selfPermit.ts#L34)

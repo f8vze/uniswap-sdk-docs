@@ -1,6 +1,4 @@
----
-Id: 
----
+[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [utils/liquidityMath](../modules/utils_liquiditymath.md) / LiquidityMath
 
 # Class: LiquidityMath
 
@@ -21,4 +19,4 @@ Id:
 
 **Returns:** *default*
 
-Defined in: [utils/liquidityMath.ts:10](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/utils/liquidityMath.ts#L10)
+Defined in: [utils/liquidityMath.ts:10](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/liquidityMath.ts#L10)

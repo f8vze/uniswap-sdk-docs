@@ -1,10 +1,10 @@
----
-Id: 
----
+[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [entities/position](../modules/entities_position.md) / Position
 
 # Class: Position
 
 [entities/position](../modules/entities_position.md).Position
+
+Represents a position on a Uniswap V3 Pool
 
 ## Constructors
 
@@ -22,7 +22,7 @@ Constructs a position for a given pool with the given liquidity
 
 **Returns:** [*Position*](entities_position.position.md)
 
-Defined in: [entities/position.ts:30](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/position.ts#L30)
+Defined in: [entities/position.ts:31](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/position.ts#L31)
 
 ## Properties
 
@@ -30,7 +30,7 @@ Defined in: [entities/position.ts:30](https://github.com/Uniswap/uniswap-v3-sdk/
 
 • `Readonly` **liquidity**: *default*
 
-Defined in: [entities/position.ts:25](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/position.ts#L25)
+Defined in: [entities/position.ts:26](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/position.ts#L26)
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 • `Readonly` **pool**: [*Pool*](entities_pool.pool.md)
 
-Defined in: [entities/position.ts:22](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/position.ts#L22)
+Defined in: [entities/position.ts:23](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/position.ts#L23)
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 • `Readonly` **tickLower**: *number*
 
-Defined in: [entities/position.ts:23](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/position.ts#L23)
+Defined in: [entities/position.ts:24](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/position.ts#L24)
 
 ___
 
@@ -54,31 +54,31 @@ ___
 
 • `Readonly` **tickUpper**: *number*
 
-Defined in: [entities/position.ts:24](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/position.ts#L24)
+Defined in: [entities/position.ts:25](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/position.ts#L25)
 
 ## Accessors
 
 ### amount0
 
-• get **amount0**(): *default*
+• get **amount0**(): *CurrencyAmount*<Token\>
 
 Returns the amount of token0 that this position's liquidity could be burned for at the current pool price
 
-**Returns:** *default*
+**Returns:** *CurrencyAmount*<Token\>
 
-Defined in: [entities/position.ts:67](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/position.ts#L67)
+Defined in: [entities/position.ts:68](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/position.ts#L68)
 
 ___
 
 ### amount1
 
-• get **amount1**(): *default*
+• get **amount1**(): *CurrencyAmount*<Token\>
 
 Returns the amount of token1 that this position's liquidity could be burned for at the current pool price
 
-**Returns:** *default*
+**Returns:** *CurrencyAmount*<Token\>
 
-Defined in: [entities/position.ts:99](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/position.ts#L99)
+Defined in: [entities/position.ts:100](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/position.ts#L100)
 
 ___
 
@@ -86,42 +86,80 @@ ___
 
 • get **mintAmounts**(): *Readonly*<{ `amount0`: *default* ; `amount1`: *default*  }\>
 
-Returns the minimum amount that must be sent in order to mint the amount of liquidity held by the position at
+Returns the minimum amounts that must be sent in order to mint the amount of liquidity held by the position at
 the current price for the pool
 
 **Returns:** *Readonly*<{ `amount0`: *default* ; `amount1`: *default*  }\>
 
-Defined in: [entities/position.ts:132](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/position.ts#L132)
+Defined in: [entities/position.ts:240](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/position.ts#L240)
 
 ___
 
 ### token0PriceLower
 
-• get **token0PriceLower**(): *default*
+• get **token0PriceLower**(): *Price*<Token, Token\>
 
 Returns the price of token0 at the lower tick
 
-**Returns:** *default*
+**Returns:** *Price*<Token, Token\>
 
-Defined in: [entities/position.ts:53](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/position.ts#L53)
+Defined in: [entities/position.ts:54](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/position.ts#L54)
 
 ___
 
 ### token0PriceUpper
 
-• get **token0PriceUpper**(): *default*
+• get **token0PriceUpper**(): *Price*<Token, Token\>
 
 Returns the price of token0 at the upper tick
 
-**Returns:** *default*
+**Returns:** *Price*<Token, Token\>
 
-Defined in: [entities/position.ts:60](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/position.ts#L60)
+Defined in: [entities/position.ts:61](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/position.ts#L61)
 
 ## Methods
 
+### burnAmountsWithSlippage
+
+▸ **burnAmountsWithSlippage**(`slippageTolerance`: *Percent*): *Readonly*<{ `amount0`: *default* ; `amount1`: *default*  }\>
+
+Returns the minimum amounts that should be requested in order to safely burn the amount of liquidity held by the
+position with the given slippage tolerance
+
+#### Parameters:
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `slippageTolerance` | *Percent* | tolerance of unfavorable slippage from the current price |
+
+**Returns:** *Readonly*<{ `amount0`: *default* ; `amount1`: *default*  }\>
+
+Defined in: [entities/position.ts:192](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/position.ts#L192)
+
+___
+
+### mintAmountsWithSlippage
+
+▸ **mintAmountsWithSlippage**(`slippageTolerance`: *Percent*): *Readonly*<{ `amount0`: *default* ; `amount1`: *default*  }\>
+
+Returns the minimum amounts that must be sent in order to safely mint the amount of liquidity held by the position
+with the given slippage tolerance
+
+#### Parameters:
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `slippageTolerance` | *Percent* | tolerance of unfavorable slippage from the current price |
+
+**Returns:** *Readonly*<{ `amount0`: *default* ; `amount1`: *default*  }\>
+
+Defined in: [entities/position.ts:134](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/position.ts#L134)
+
+___
+
 ### fromAmount0
 
-▸ `Static`**fromAmount0**(`__namedParameters`: { `amount0`: BigintIsh ; `pool`: [*Pool*](entities_pool.pool.md) ; `tickLower`: *number* ; `tickUpper`: *number*  }): [*Position*](entities_position.position.md)
+▸ `Static`**fromAmount0**(`__namedParameters`: { `amount0`: BigintIsh ; `pool`: [*Pool*](entities_pool.pool.md) ; `tickLower`: *number* ; `tickUpper`: *number* ; `useFullPrecision`: *boolean*  }): [*Position*](entities_position.position.md)
 
 Computes a position with the maximum amount of liquidity received for a given amount of token0, assuming an unlimited amount of token1
 
@@ -134,10 +172,11 @@ Computes a position with the maximum amount of liquidity received for a given am
 | `__namedParameters.pool` | [*Pool*](entities_pool.pool.md) | the pool for which the position is created |
 | `__namedParameters.tickLower` | *number* | the lower tick |
 | `__namedParameters.tickUpper` | *number* | the upper tick |
+| `__namedParameters.useFullPrecision` | *boolean* | if true, liquidity will be maximized according to what the router can calculate, not what core can theoretically support |
 
 **Returns:** [*Position*](entities_position.position.md)
 
-Defined in: [entities/position.ts:213](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/position.ts#L213)
+Defined in: [entities/position.ts:334](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/position.ts#L334)
 
 ___
 
@@ -159,13 +198,13 @@ Computes a position with the maximum amount of liquidity received for a given am
 
 **Returns:** [*Position*](entities_position.position.md)
 
-Defined in: [entities/position.ts:234](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/position.ts#L234)
+Defined in: [entities/position.ts:357](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/position.ts#L357)
 
 ___
 
 ### fromAmounts
 
-▸ `Static`**fromAmounts**(`__namedParameters`: { `amount0`: BigintIsh ; `amount1`: BigintIsh ; `pool`: [*Pool*](entities_pool.pool.md) ; `tickLower`: *number* ; `tickUpper`: *number*  }): [*Position*](entities_position.position.md)
+▸ `Static`**fromAmounts**(`__namedParameters`: { `amount0`: BigintIsh ; `amount1`: BigintIsh ; `pool`: [*Pool*](entities_pool.pool.md) ; `tickLower`: *number* ; `tickUpper`: *number* ; `useFullPrecision`: *boolean*  }): [*Position*](entities_position.position.md)
 
 Computes the maximum amount of liquidity received for a given amount of token0, token1,
 and the prices at the tick boundaries.
@@ -180,7 +219,8 @@ and the prices at the tick boundaries.
 | `__namedParameters.pool` | [*Pool*](entities_pool.pool.md) | the pool for which the position should be created |
 | `__namedParameters.tickLower` | *number* | the lower tick of the position |
 | `__namedParameters.tickUpper` | *number* | the upper tick of the position |
+| `__namedParameters.useFullPrecision` | *boolean* | if false, liquidity will be maximized according to what the router can calculate, not what core can theoretically support |
 
 **Returns:** [*Position*](entities_position.position.md)
 
-Defined in: [entities/position.ts:183](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/position.ts#L183)
+Defined in: [entities/position.ts:293](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/position.ts#L293)

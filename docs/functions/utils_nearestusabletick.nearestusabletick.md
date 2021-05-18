@@ -17,4 +17,4 @@ Returns the closest tick that is nearest a given tick and usable for the given t
 
 **Returns:** *number*
 
-Defined in: [utils/nearestUsableTick.ts:9](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/utils/nearestUsableTick.ts#L9)
+Defined in: [utils/nearestUsableTick.ts:9](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/nearestUsableTick.ts#L9)

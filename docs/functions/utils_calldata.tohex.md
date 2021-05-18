@@ -14,4 +14,4 @@
 
 **Returns:** *string*
 
-Defined in: [utils/calldata.ts:18](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/utils/calldata.ts#L18)
+Defined in: [utils/calldata.ts:18](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/calldata.ts#L18)

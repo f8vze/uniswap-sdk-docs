@@ -1,6 +1,4 @@
----
-Id: 
----
+[@uniswap/v3-sdk](README.md) / Exports
 
 # @uniswap/v3-sdk
 

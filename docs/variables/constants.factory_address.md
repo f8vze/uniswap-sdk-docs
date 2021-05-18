@@ -6,4 +6,4 @@
 
 • `Const` **FACTORY\_ADDRESS**: ``"0x1F98431c8aD98523631AE4a59f267346ea31F984"``= '0x1F98431c8aD98523631AE4a59f267346ea31F984'
 
-Defined in: [constants.ts:2](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/constants.ts#L2)
+Defined in: [constants.ts:1](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/constants.ts#L1)

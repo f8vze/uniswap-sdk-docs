@@ -1,6 +1,4 @@
----
-Id: 
----
+[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [nonfungiblePositionManager](../modules/nonfungiblepositionmanager.md) / NFTPermitOptions
 
 # Interface: NFTPermitOptions
 
@@ -12,7 +10,7 @@ Id:
 
 • **deadline**: BigintIsh
 
-Defined in: [nonfungiblePositionManager.ts:68](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/nonfungiblePositionManager.ts#L68)
+Defined in: [nonfungiblePositionManager.ts:108](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/nonfungiblePositionManager.ts#L108)
 
 ___
 
@@ -20,7 +18,7 @@ ___
 
 • **r**: *string*
 
-Defined in: [nonfungiblePositionManager.ts:65](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/nonfungiblePositionManager.ts#L65)
+Defined in: [nonfungiblePositionManager.ts:106](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/nonfungiblePositionManager.ts#L106)
 
 ___
 
@@ -28,7 +26,7 @@ ___
 
 • **s**: *string*
 
-Defined in: [nonfungiblePositionManager.ts:66](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/nonfungiblePositionManager.ts#L66)
+Defined in: [nonfungiblePositionManager.ts:107](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/nonfungiblePositionManager.ts#L107)
 
 ___
 
@@ -36,15 +34,7 @@ ___
 
 • **spender**: *string*
 
-Defined in: [nonfungiblePositionManager.ts:69](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/nonfungiblePositionManager.ts#L69)
-
-___
-
-### tokenId
-
-• **tokenId**: BigintIsh
-
-Defined in: [nonfungiblePositionManager.ts:67](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/nonfungiblePositionManager.ts#L67)
+Defined in: [nonfungiblePositionManager.ts:109](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/nonfungiblePositionManager.ts#L109)
 
 ___
 
@@ -52,4 +42,4 @@ ___
 
 • **v**: ``0`` \| ``1`` \| ``27`` \| ``28``
 
-Defined in: [nonfungiblePositionManager.ts:64](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/nonfungiblePositionManager.ts#L64)
+Defined in: [nonfungiblePositionManager.ts:105](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/nonfungiblePositionManager.ts#L105)

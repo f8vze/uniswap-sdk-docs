@@ -1,6 +1,4 @@
----
-Id: 
----
+[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / utils/sqrtPriceMath
 
 # Module: utils/sqrtPriceMath
 

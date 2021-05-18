@@ -17,4 +17,4 @@ Returns the sqrt ratio as a Q64.96 corresponding to a given ratio of amount1 and
 
 **Returns:** JSBI
 
-Defined in: [utils/encodeSqrtRatioX96.ts:9](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/utils/encodeSqrtRatioX96.ts#L9)
+Defined in: [utils/encodeSqrtRatioX96.ts:9](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/encodeSqrtRatioX96.ts#L9)

@@ -4,6 +4,6 @@
 
 [selfPermit](../modules/selfpermit.md).PermitOptions
 
-Ƭ **PermitOptions**: StandardPermitArguments \| AllowedPermitArguments
+Ƭ **PermitOptions**: [*StandardPermitArguments*](../interfaces/selfpermit.standardpermitarguments.md) \| [*AllowedPermitArguments*](../interfaces/selfpermit.allowedpermitarguments.md)
 
-Defined in: [selfPermit.ts:22](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/selfPermit.ts#L22)
+Defined in: [selfPermit.ts:22](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/selfPermit.ts#L22)

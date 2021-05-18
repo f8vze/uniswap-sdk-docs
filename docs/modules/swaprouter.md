@@ -1,6 +1,4 @@
----
-Id: 
----
+[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / swapRouter
 
 # Module: swapRouter
 
@@ -12,4 +10,5 @@ Id:
 
 ### Interfaces
 
-- [TradeOptions](../interfaces/swaprouter.tradeoptions.md)
+- [FeeOptions](../interfaces/swaprouter.feeoptions.md)
+- [SwapOptions](../interfaces/swaprouter.swapoptions.md)

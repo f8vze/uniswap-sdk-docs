@@ -4,7 +4,7 @@
 
 [utils/maxLiquidityForAmounts](../modules/utils_maxliquidityforamounts.md).maxLiquidityForAmounts
 
-▸ **maxLiquidityForAmounts**(`sqrtRatioCurrentX96`: JSBI, `sqrtRatioAX96`: JSBI, `sqrtRatioBX96`: JSBI, `amount0`: BigintIsh, `amount1`: BigintIsh): JSBI
+▸ **maxLiquidityForAmounts**(`sqrtRatioCurrentX96`: JSBI, `sqrtRatioAX96`: JSBI, `sqrtRatioBX96`: JSBI, `amount0`: BigintIsh, `amount1`: BigintIsh, `useFullPrecision`: *boolean*): JSBI
 
 Computes the maximum amount of liquidity received for a given amount of token0, token1,
 and the prices at the tick boundaries.
@@ -18,7 +18,8 @@ and the prices at the tick boundaries.
 | `sqrtRatioBX96` | JSBI | price at upper boundary |
 | `amount0` | BigintIsh | token0 amount |
 | `amount1` | BigintIsh | token1 amount |
+| `useFullPrecision` | *boolean* | if false, liquidity will be maximized according to what the router can calculate, not what core can theoretically support |
 
 **Returns:** JSBI
 
-Defined in: [utils/maxLiquidityForAmounts.ts:29](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/utils/maxLiquidityForAmounts.ts#L29)
+Defined in: [utils/maxLiquidityForAmounts.ts:42](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/maxLiquidityForAmounts.ts#L42)

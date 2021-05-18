@@ -1,10 +1,20 @@
----
-Id: 
----
+[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / index
 
 # Module: index
 
 ## References
+
+### ADDRESS\_ZERO
+
+Re-exports: [ADDRESS\_ZERO](../variables/constants.address_zero.md)
+
+___
+
+### AddLiquidityOptions
+
+Re-exports: [AddLiquidityOptions](../types/nonfungiblepositionmanager.addliquidityoptions.md)
+
+___
 
 ### BestTradeOptions
 
@@ -12,9 +22,15 @@ Re-exports: [BestTradeOptions](../interfaces/entities_trade.besttradeoptions.md)
 
 ___
 
-### DecreaseLiquidityOptions
+### CollectOptions
 
-Re-exports: [DecreaseLiquidityOptions](../interfaces/nonfungiblepositionmanager.decreaseliquidityoptions.md)
+Re-exports: [CollectOptions](../interfaces/nonfungiblepositionmanager.collectoptions.md)
+
+___
+
+### CommonAddLiquidityOptions
+
+Re-exports: [CommonAddLiquidityOptions](../interfaces/nonfungiblepositionmanager.commonaddliquidityoptions.md)
 
 ___
 
@@ -30,15 +46,27 @@ Re-exports: [FeeAmount](../enums/constants.feeamount.md)
 
 ___
 
+### FeeOptions
+
+Re-exports: [FeeOptions](../interfaces/swaprouter.feeoptions.md)
+
+___
+
 ### FullMath
 
 Re-exports: [FullMath](../classes/utils_fullmath.fullmath.md)
 
 ___
 
-### IncreaseLiquidityOptions
+### IncreaseOptions
 
-Re-exports: [IncreaseLiquidityOptions](../types/nonfungiblepositionmanager.increaseliquidityoptions.md)
+Re-exports: [IncreaseOptions](../types/nonfungiblepositionmanager.increaseoptions.md)
+
+___
+
+### IncreaseSpecificOptions
+
+Re-exports: [IncreaseSpecificOptions](../interfaces/nonfungiblepositionmanager.increasespecificoptions.md)
 
 ___
 
@@ -54,15 +82,21 @@ Re-exports: [MethodParameters](../interfaces/utils_calldata.methodparameters.md)
 
 ___
 
-### NFTPermitOptions
+### MintOptions
 
-Re-exports: [NFTPermitOptions](../interfaces/nonfungiblepositionmanager.nftpermitoptions.md)
+Re-exports: [MintOptions](../types/nonfungiblepositionmanager.mintoptions.md)
 
 ___
 
-### NONFUNGIBLE\_POSITION\_MANAGER\_ADDRESS
+### MintSpecificOptions
 
-Re-exports: [NONFUNGIBLE\_POSITION\_MANAGER\_ADDRESS](../variables/constants.nonfungible_position_manager_address.md)
+Re-exports: [MintSpecificOptions](../interfaces/nonfungiblepositionmanager.mintspecificoptions.md)
+
+___
+
+### NFTPermitOptions
+
+Re-exports: [NFTPermitOptions](../interfaces/nonfungiblepositionmanager.nftpermitoptions.md)
 
 ___
 
@@ -96,21 +130,27 @@ Re-exports: [Position](../classes/entities_position.position.md)
 
 ___
 
+### RemoveLiquidityOptions
+
+Re-exports: [RemoveLiquidityOptions](../interfaces/nonfungiblepositionmanager.removeliquidityoptions.md)
+
+___
+
 ### Route
 
 Re-exports: [Route](../classes/entities_route.route.md)
 
 ___
 
-### SWAP\_ROUTER\_ADDRESS
-
-Re-exports: [SWAP\_ROUTER\_ADDRESS](../variables/constants.swap_router_address.md)
-
-___
-
 ### SqrtPriceMath
 
 Re-exports: [SqrtPriceMath](../classes/utils_sqrtpricemath.sqrtpricemath.md)
+
+___
+
+### SwapOptions
+
+Re-exports: [SwapOptions](../interfaces/swaprouter.swapoptions.md)
 
 ___
 
@@ -165,12 +205,6 @@ ___
 ### Trade
 
 Re-exports: [Trade](../classes/entities_trade.trade.md)
-
-___
-
-### TradeOptions
-
-Re-exports: [TradeOptions](../interfaces/swaprouter.tradeoptions.md)
 
 ___
 

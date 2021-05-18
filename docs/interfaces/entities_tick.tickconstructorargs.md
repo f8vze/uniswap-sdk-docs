@@ -1,6 +1,4 @@
----
-Id: 
----
+[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [entities/tick](../modules/entities_tick.md) / TickConstructorArgs
 
 # Interface: TickConstructorArgs
 
@@ -12,7 +10,7 @@ Id:
 
 • **index**: *number*
 
-Defined in: [entities/tick.ts:7](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/tick.ts#L7)
+Defined in: [entities/tick.ts:7](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/tick.ts#L7)
 
 ___
 
@@ -20,7 +18,7 @@ ___
 
 • **liquidityGross**: BigintIsh
 
-Defined in: [entities/tick.ts:8](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/tick.ts#L8)
+Defined in: [entities/tick.ts:8](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/tick.ts#L8)
 
 ___
 
@@ -28,4 +26,4 @@ ___
 
 • **liquidityNet**: BigintIsh
 
-Defined in: [entities/tick.ts:9](https://github.com/Uniswap/uniswap-v3-sdk/blob/4a7e393/src/entities/tick.ts#L9)
+Defined in: [entities/tick.ts:9](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/tick.ts#L9)
