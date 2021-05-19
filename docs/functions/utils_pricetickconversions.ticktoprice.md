@@ -1,15 +1,13 @@
 [@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [utils/priceTickConversions](../modules/utils_pricetickconversions.md) / tickToPrice
 
-# Function: tickToPrice
-
-[utils/priceTickConversions](../modules/utils_pricetickconversions.md).tickToPrice
+# tickToPrice
 
 ▸ **tickToPrice**(`baseToken`: Token, `quoteToken`: Token, `tick`: *number*): *Price*<Token, Token\>
 
 Returns a price object corresponding to the input tick and the base/quote token
 Inputs must be tokens because the address order is used to interpret the price represented by the tick
 
-#### Parameters:
+#### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
@@ -19,4 +17,4 @@ Inputs must be tokens because the address order is used to interpret the price r
 
 **Returns:** *Price*<Token, Token\>
 
-Defined in: [utils/priceTickConversions.ts:14](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/priceTickConversions.ts#L14)
+Defined in: [utils/priceTickConversions.ts:14](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/utils/priceTickConversions.ts#L14)

@@ -1,14 +1,15 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / constants
+---
+id: constants
+title: constants
+---
 
-# Module: constants
+# constants
 
-## Table of contents
-
-### Enumerations
+## Enumerations
 
 - [FeeAmount](../enums/constants.feeamount.md)
 
-### Variables
+## Variables
 
 - [ADDRESS\_ZERO](../variables/constants.address_zero.md)
 - [FACTORY\_ADDRESS](../variables/constants.factory_address.md)

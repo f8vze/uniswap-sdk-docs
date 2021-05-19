@@ -1,14 +1,12 @@
 [@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [utils/priceTickConversions](../modules/utils_pricetickconversions.md) / priceToClosestTick
 
-# Function: priceToClosestTick
-
-[utils/priceTickConversions](../modules/utils_pricetickconversions.md).priceToClosestTick
+# priceToClosestTick
 
 ▸ **priceToClosestTick**(`price`: *Price*<Token, Token\>): *number*
 
 Returns the first tick for which the given price is greater than or equal to the tick price
 
-#### Parameters:
+#### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
@@ -16,4 +14,4 @@ Returns the first tick for which the given price is greater than or equal to the
 
 **Returns:** *number*
 
-Defined in: [utils/priceTickConversions.ts:29](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/priceTickConversions.ts#L29)
+Defined in: [utils/priceTickConversions.ts:29](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/utils/priceTickConversions.ts#L29)

@@ -1,8 +1,9 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [entities/pool](../modules/entities_pool.md) / Pool
+---
+id: Pool
+title: Pool
+---
 
-# Class: Pool
-
-[entities/pool](../modules/entities_pool.md).Pool
+# Pool
 
 Represents a V3 pool
 
@@ -14,7 +15,7 @@ Represents a V3 pool
 
 Construct a pool
 
-#### Parameters:
+#### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
@@ -28,7 +29,7 @@ Construct a pool
 
 **Returns:** [*Pool*](entities_pool.pool.md)
 
-Defined in: [entities/pool.ts:46](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/pool.ts#L46)
+Defined in: [entities/pool.ts:46](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/pool.ts#L46)
 
 ## Properties
 
@@ -36,7 +37,7 @@ Defined in: [entities/pool.ts:46](https://github.com/Uniswap/uniswap-v3-sdk/blob
 
 • `Readonly` **fee**: [*FeeAmount*](../enums/constants.feeamount.md)
 
-Defined in: [entities/pool.ts:35](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/pool.ts#L35)
+Defined in: [entities/pool.ts:35](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/pool.ts#L35)
 
 ___
 
@@ -44,7 +45,7 @@ ___
 
 • `Readonly` **liquidity**: *default*
 
-Defined in: [entities/pool.ts:37](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/pool.ts#L37)
+Defined in: [entities/pool.ts:37](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/pool.ts#L37)
 
 ___
 
@@ -52,7 +53,7 @@ ___
 
 • `Readonly` **sqrtRatioX96**: *default*
 
-Defined in: [entities/pool.ts:36](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/pool.ts#L36)
+Defined in: [entities/pool.ts:36](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/pool.ts#L36)
 
 ___
 
@@ -60,7 +61,7 @@ ___
 
 • `Readonly` **tickCurrent**: *number*
 
-Defined in: [entities/pool.ts:38](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/pool.ts#L38)
+Defined in: [entities/pool.ts:38](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/pool.ts#L38)
 
 ___
 
@@ -68,7 +69,7 @@ ___
 
 • `Readonly` **tickDataProvider**: [*TickDataProvider*](../interfaces/entities_tickdataprovider.tickdataprovider.md)
 
-Defined in: [entities/pool.ts:39](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/pool.ts#L39)
+Defined in: [entities/pool.ts:39](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/pool.ts#L39)
 
 ___
 
@@ -76,7 +77,7 @@ ___
 
 • `Readonly` **token0**: *Token*
 
-Defined in: [entities/pool.ts:33](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/pool.ts#L33)
+Defined in: [entities/pool.ts:33](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/pool.ts#L33)
 
 ___
 
@@ -84,7 +85,7 @@ ___
 
 • `Readonly` **token1**: *Token*
 
-Defined in: [entities/pool.ts:34](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/pool.ts#L34)
+Defined in: [entities/pool.ts:34](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/pool.ts#L34)
 
 ## Accessors
 
@@ -96,7 +97,7 @@ Returns the chain ID of the tokens in the pool.
 
 **Returns:** *number*
 
-Defined in: [entities/pool.ts:135](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/pool.ts#L135)
+Defined in: [entities/pool.ts:135](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/pool.ts#L135)
 
 ___
 
@@ -106,7 +107,7 @@ ___
 
 **Returns:** *number*
 
-Defined in: [entities/pool.ts:287](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/pool.ts#L287)
+Defined in: [entities/pool.ts:287](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/pool.ts#L287)
 
 ___
 
@@ -118,7 +119,7 @@ Returns the current mid price of the pool in terms of token0, i.e. the ratio of 
 
 **Returns:** *Price*<Token, Token\>
 
-Defined in: [entities/pool.ts:96](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/pool.ts#L96)
+Defined in: [entities/pool.ts:96](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/pool.ts#L96)
 
 ___
 
@@ -130,7 +131,7 @@ Returns the current mid price of the pool in terms of token1, i.e. the ratio of 
 
 **Returns:** *Price*<Token, Token\>
 
-Defined in: [entities/pool.ts:111](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/pool.ts#L111)
+Defined in: [entities/pool.ts:111](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/pool.ts#L111)
 
 ## Methods
 
@@ -140,7 +141,7 @@ Defined in: [entities/pool.ts:111](https://github.com/Uniswap/uniswap-v3-sdk/blo
 
 Given a desired output amount of a token, return the computed input amount and a pool with state updated after the trade
 
-#### Parameters:
+#### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
@@ -149,7 +150,7 @@ Given a desired output amount of a token, return the computed input amount and a
 
 **Returns:** *Promise*<[*CurrencyAmount*<Token\>, [*Pool*](entities_pool.pool.md)]\>
 
-Defined in: [entities/pool.ts:167](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/pool.ts#L167)
+Defined in: [entities/pool.ts:167](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/pool.ts#L167)
 
 ___
 
@@ -159,7 +160,7 @@ ___
 
 Given an input amount of a token, return the computed output amount and a pool with state updated after the trade
 
-#### Parameters:
+#### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
@@ -168,7 +169,7 @@ Given an input amount of a token, return the computed output amount and a pool w
 
 **Returns:** *Promise*<[*CurrencyAmount*<Token\>, [*Pool*](entities_pool.pool.md)]\>
 
-Defined in: [entities/pool.ts:143](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/pool.ts#L143)
+Defined in: [entities/pool.ts:143](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/pool.ts#L143)
 
 ___
 
@@ -178,7 +179,7 @@ ___
 
 Returns true if the token is either token0 or token1
 
-#### Parameters:
+#### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
@@ -186,7 +187,7 @@ Returns true if the token is either token0 or token1
 
 **Returns:** *boolean*
 
-Defined in: [entities/pool.ts:89](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/pool.ts#L89)
+Defined in: [entities/pool.ts:89](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/pool.ts#L89)
 
 ___
 
@@ -196,7 +197,7 @@ ___
 
 Return the price of the given token in terms of the other token in the pool.
 
-#### Parameters:
+#### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
@@ -204,15 +205,15 @@ Return the price of the given token in terms of the other token in the pool.
 
 **Returns:** *Price*<Token, Token\>
 
-Defined in: [entities/pool.ts:127](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/pool.ts#L127)
+Defined in: [entities/pool.ts:127](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/pool.ts#L127)
 
 ___
 
 ### getAddress
 
-▸ `Static`**getAddress**(`tokenA`: *Token*, `tokenB`: *Token*, `fee`: [*FeeAmount*](../enums/constants.feeamount.md)): *string*
+▸ `Static` **getAddress**(`tokenA`: *Token*, `tokenB`: *Token*, `fee`: [*FeeAmount*](../enums/constants.feeamount.md)): *string*
 
-#### Parameters:
+#### Parameters
 
 | Name | Type |
 | :------ | :------ |
@@ -222,4 +223,4 @@ ___
 
 **Returns:** *string*
 
-Defined in: [entities/pool.ts:44](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/pool.ts#L44)
+Defined in: [entities/pool.ts:44](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/pool.ts#L44)

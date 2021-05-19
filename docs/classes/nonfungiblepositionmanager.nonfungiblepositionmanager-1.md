@@ -1,12 +1,13 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [nonfungiblePositionManager](../modules/nonfungiblepositionmanager.md) / NonfungiblePositionManager
+---
+id: NonfungiblePositionManager
+title: NonfungiblePositionManager
+---
 
-# Class: NonfungiblePositionManager
-
-[nonfungiblePositionManager](../modules/nonfungiblepositionmanager.md).NonfungiblePositionManager
+# NonfungiblePositionManager
 
 ## Hierarchy
 
-* [*SelfPermit*](selfpermit.selfpermit-1.md)
+- [*SelfPermit*](selfpermit.selfpermit-1.md)
 
   ↳ **NonfungiblePositionManager**
 
@@ -18,15 +19,15 @@
 
 Overrides: [SelfPermit](selfpermit.selfpermit-1.md).[INTERFACE](selfpermit.selfpermit-1.md#interface)
 
-Defined in: [nonfungiblePositionManager.ts:153](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/nonfungiblePositionManager.ts#L153)
+Defined in: [nonfungiblePositionManager.ts:153](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/nonfungiblePositionManager.ts#L153)
 
 ## Methods
 
 ### addCallParameters
 
-▸ `Static`**addCallParameters**(`position`: [*Position*](entities_position.position.md), `options`: [*AddLiquidityOptions*](../types/nonfungiblepositionmanager.addliquidityoptions.md)): [*MethodParameters*](../interfaces/utils_calldata.methodparameters.md)
+▸ `Static` **addCallParameters**(`position`: [*Position*](entities_position.position.md), `options`: [*AddLiquidityOptions*](../types/nonfungiblepositionmanager.addliquidityoptions.md)): [*MethodParameters*](../interfaces/utils_calldata.methodparameters.md)
 
-#### Parameters:
+#### Parameters
 
 | Name | Type |
 | :------ | :------ |
@@ -35,15 +36,15 @@ Defined in: [nonfungiblePositionManager.ts:153](https://github.com/Uniswap/unisw
 
 **Returns:** [*MethodParameters*](../interfaces/utils_calldata.methodparameters.md)
 
-Defined in: [nonfungiblePositionManager.ts:162](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/nonfungiblePositionManager.ts#L162)
+Defined in: [nonfungiblePositionManager.ts:162](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/nonfungiblePositionManager.ts#L162)
 
 ___
 
 ### collectCallParameters
 
-▸ `Static`**collectCallParameters**(`options`: [*CollectOptions*](../interfaces/nonfungiblepositionmanager.collectoptions.md)): [*MethodParameters*](../interfaces/utils_calldata.methodparameters.md)
+▸ `Static` **collectCallParameters**(`options`: [*CollectOptions*](../interfaces/nonfungiblepositionmanager.collectoptions.md)): [*MethodParameters*](../interfaces/utils_calldata.methodparameters.md)
 
-#### Parameters:
+#### Parameters
 
 | Name | Type |
 | :------ | :------ |
@@ -51,15 +52,15 @@ ___
 
 **Returns:** [*MethodParameters*](../interfaces/utils_calldata.methodparameters.md)
 
-Defined in: [nonfungiblePositionManager.ts:306](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/nonfungiblePositionManager.ts#L306)
+Defined in: [nonfungiblePositionManager.ts:306](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/nonfungiblePositionManager.ts#L306)
 
 ___
 
 ### encodePermit
 
-▸ `Static` `Protected`**encodePermit**(`token`: *Token*, `options`: [*PermitOptions*](../types/selfpermit.permitoptions.md)): *string*
+▸ `Static` `Protected` **encodePermit**(`token`: *Token*, `options`: [*PermitOptions*](../types/selfpermit.permitoptions.md)): *string*
 
-#### Parameters:
+#### Parameters
 
 | Name | Type |
 | :------ | :------ |
@@ -70,17 +71,17 @@ ___
 
 Inherited from: [SelfPermit](selfpermit.selfpermit-1.md)
 
-Defined in: [selfPermit.ts:34](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/selfPermit.ts#L34)
+Defined in: [selfPermit.ts:34](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/selfPermit.ts#L34)
 
 ___
 
 ### removeCallParameters
 
-▸ `Static`**removeCallParameters**(`position`: [*Position*](entities_position.position.md), `options`: [*RemoveLiquidityOptions*](../interfaces/nonfungiblepositionmanager.removeliquidityoptions.md)): [*MethodParameters*](../interfaces/utils_calldata.methodparameters.md)
+▸ `Static` **removeCallParameters**(`position`: [*Position*](entities_position.position.md), `options`: [*RemoveLiquidityOptions*](../interfaces/nonfungiblepositionmanager.removeliquidityoptions.md)): [*MethodParameters*](../interfaces/utils_calldata.methodparameters.md)
 
 Produces the calldata for completely or partially exiting a position
 
-#### Parameters:
+#### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
@@ -89,4 +90,4 @@ Produces the calldata for completely or partially exiting a position
 
 **Returns:** [*MethodParameters*](../interfaces/utils_calldata.methodparameters.md)
 
-Defined in: [nonfungiblePositionManager.ts:323](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/nonfungiblePositionManager.ts#L323)
+Defined in: [nonfungiblePositionManager.ts:323](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/nonfungiblePositionManager.ts#L323)

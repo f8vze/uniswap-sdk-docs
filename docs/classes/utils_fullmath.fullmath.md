@@ -1,16 +1,17 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [utils/fullMath](../modules/utils_fullmath.md) / FullMath
+---
+id: FullMath
+title: FullMath
+---
 
-# Class: FullMath
-
-[utils/fullMath](../modules/utils_fullmath.md).FullMath
+# FullMath
 
 ## Methods
 
 ### mulDivRoundingUp
 
-▸ `Static`**mulDivRoundingUp**(`a`: *default*, `b`: *default*, `denominator`: *default*): *default*
+▸ `Static` **mulDivRoundingUp**(`a`: *default*, `b`: *default*, `denominator`: *default*): *default*
 
-#### Parameters:
+#### Parameters
 
 | Name | Type |
 | :------ | :------ |
@@ -20,4 +21,4 @@
 
 **Returns:** *default*
 
-Defined in: [utils/fullMath.ts:10](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/fullMath.ts#L10)
+Defined in: [utils/fullMath.ts:10](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/utils/fullMath.ts#L10)

@@ -1,6 +1,9 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / utils
+---
+id: utils
+title: utils
+---
 
-# Module: utils
+# utils
 
 ## References
 

@@ -1,15 +1,16 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [entities/tickDataProvider](../modules/entities_tickdataprovider.md) / TickDataProvider
+---
+id: TickDataProvider
+title: TickDataProvider
+---
 
-# Interface: TickDataProvider
-
-[entities/tickDataProvider](../modules/entities_tickdataprovider.md).TickDataProvider
+# TickDataProvider
 
 Provides information about ticks
 
 ## Implemented by
 
-* [*NoTickDataProvider*](../classes/entities_tickdataprovider.notickdataprovider.md)
-* [*TickListDataProvider*](../classes/entities_ticklistdataprovider.ticklistdataprovider.md)
+- [*NoTickDataProvider*](../classes/entities_tickdataprovider.notickdataprovider.md)
+- [*TickListDataProvider*](../classes/entities_ticklistdataprovider.ticklistdataprovider.md)
 
 ## Methods
 
@@ -19,7 +20,7 @@ Provides information about ticks
 
 Return information corresponding to a specific tick
 
-#### Parameters:
+#### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
@@ -27,7 +28,7 @@ Return information corresponding to a specific tick
 
 **Returns:** *Promise*<{ `liquidityNet`: BigintIsh  }\>
 
-Defined in: [entities/tickDataProvider.ts:11](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/tickDataProvider.ts#L11)
+Defined in: [entities/tickDataProvider.ts:11](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/tickDataProvider.ts#L11)
 
 ___
 
@@ -37,7 +38,7 @@ ___
 
 Return the next tick that is initialized within a single word
 
-#### Parameters:
+#### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
@@ -47,4 +48,4 @@ Return the next tick that is initialized within a single word
 
 **Returns:** *Promise*<[*number*, *boolean*]\>
 
-Defined in: [entities/tickDataProvider.ts:19](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/tickDataProvider.ts#L19)
+Defined in: [entities/tickDataProvider.ts:19](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/tickDataProvider.ts#L19)

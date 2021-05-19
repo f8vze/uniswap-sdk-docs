@@ -1,8 +1,9 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [entities/tick](../modules/entities_tick.md) / Tick
+---
+id: Tick
+title: Tick
+---
 
-# Class: Tick
-
-[entities/tick](../modules/entities_tick.md).Tick
+# Tick
 
 ## Constructors
 
@@ -10,7 +11,7 @@
 
 \+ **new Tick**(`__namedParameters`: [*TickConstructorArgs*](../interfaces/entities_tick.tickconstructorargs.md)): [*Tick*](entities_tick.tick.md)
 
-#### Parameters:
+#### Parameters
 
 | Name | Type |
 | :------ | :------ |
@@ -18,7 +19,7 @@
 
 **Returns:** [*Tick*](entities_tick.tick.md)
 
-Defined in: [entities/tick.ts:15](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/tick.ts#L15)
+Defined in: [entities/tick.ts:15](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/tick.ts#L15)
 
 ## Properties
 
@@ -26,7 +27,7 @@ Defined in: [entities/tick.ts:15](https://github.com/Uniswap/uniswap-v3-sdk/blob
 
 • `Readonly` **index**: *number*
 
-Defined in: [entities/tick.ts:13](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/tick.ts#L13)
+Defined in: [entities/tick.ts:13](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/tick.ts#L13)
 
 ___
 
@@ -34,7 +35,7 @@ ___
 
 • `Readonly` **liquidityGross**: *default*
 
-Defined in: [entities/tick.ts:14](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/tick.ts#L14)
+Defined in: [entities/tick.ts:14](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/tick.ts#L14)
 
 ___
 
@@ -42,4 +43,4 @@ ___
 
 • `Readonly` **liquidityNet**: *default*
 
-Defined in: [entities/tick.ts:15](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/tick.ts#L15)
+Defined in: [entities/tick.ts:15](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/tick.ts#L15)

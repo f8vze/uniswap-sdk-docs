@@ -1,16 +1,17 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [utils/liquidityMath](../modules/utils_liquiditymath.md) / LiquidityMath
+---
+id: LiquidityMath
+title: LiquidityMath
+---
 
-# Class: LiquidityMath
-
-[utils/liquidityMath](../modules/utils_liquiditymath.md).LiquidityMath
+# LiquidityMath
 
 ## Methods
 
 ### addDelta
 
-▸ `Static`**addDelta**(`x`: *default*, `y`: *default*): *default*
+▸ `Static` **addDelta**(`x`: *default*, `y`: *default*): *default*
 
-#### Parameters:
+#### Parameters
 
 | Name | Type |
 | :------ | :------ |
@@ -19,4 +20,4 @@
 
 **Returns:** *default*
 
-Defined in: [utils/liquidityMath.ts:10](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/liquidityMath.ts#L10)
+Defined in: [utils/liquidityMath.ts:10](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/utils/liquidityMath.ts#L10)

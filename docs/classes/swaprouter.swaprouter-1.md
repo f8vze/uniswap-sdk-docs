@@ -1,14 +1,15 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [swapRouter](../modules/swaprouter.md) / SwapRouter
+---
+id: SwapRouter
+title: SwapRouter
+---
 
-# Class: SwapRouter
-
-[swapRouter](../modules/swaprouter.md).SwapRouter
+# SwapRouter
 
 Represents the Uniswap V2 SwapRouter, and has static methods for helping execute trades.
 
 ## Hierarchy
 
-* [*SelfPermit*](selfpermit.selfpermit-1.md)
+- [*SelfPermit*](selfpermit.selfpermit-1.md)
 
   ↳ **SwapRouter**
 
@@ -20,15 +21,15 @@ Represents the Uniswap V2 SwapRouter, and has static methods for helping execute
 
 Overrides: [SelfPermit](selfpermit.selfpermit-1.md).[INTERFACE](selfpermit.selfpermit-1.md#interface)
 
-Defined in: [swapRouter.ts:62](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/swapRouter.ts#L62)
+Defined in: [swapRouter.ts:62](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/swapRouter.ts#L62)
 
 ## Methods
 
 ### encodePermit
 
-▸ `Static` `Protected`**encodePermit**(`token`: *Token*, `options`: [*PermitOptions*](../types/selfpermit.permitoptions.md)): *string*
+▸ `Static` `Protected` **encodePermit**(`token`: *Token*, `options`: [*PermitOptions*](../types/selfpermit.permitoptions.md)): *string*
 
-#### Parameters:
+#### Parameters
 
 | Name | Type |
 | :------ | :------ |
@@ -39,17 +40,17 @@ Defined in: [swapRouter.ts:62](https://github.com/Uniswap/uniswap-v3-sdk/blob/c4
 
 Inherited from: [SelfPermit](selfpermit.selfpermit-1.md)
 
-Defined in: [selfPermit.ts:34](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/selfPermit.ts#L34)
+Defined in: [selfPermit.ts:34](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/selfPermit.ts#L34)
 
 ___
 
 ### swapCallParameters
 
-▸ `Static`**swapCallParameters**(`trade`: [*Trade*](entities_trade.trade.md)<Currency, Currency, TradeType\>, `options`: [*SwapOptions*](../interfaces/swaprouter.swapoptions.md)): [*MethodParameters*](../interfaces/utils_calldata.methodparameters.md)
+▸ `Static` **swapCallParameters**(`trade`: [*Trade*](entities_trade.trade.md)<Currency, Currency, TradeType\>, `options`: [*SwapOptions*](../interfaces/swaprouter.swapoptions.md)): [*MethodParameters*](../interfaces/utils_calldata.methodparameters.md)
 
 Produces the on-chain method name to call and the hex encoded parameters to pass as arguments for a given trade.
 
-#### Parameters:
+#### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
@@ -58,4 +59,4 @@ Produces the on-chain method name to call and the hex encoded parameters to pass
 
 **Returns:** [*MethodParameters*](../interfaces/utils_calldata.methodparameters.md)
 
-Defined in: [swapRouter.ts:76](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/swapRouter.ts#L76)
+Defined in: [swapRouter.ts:76](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/swapRouter.ts#L76)

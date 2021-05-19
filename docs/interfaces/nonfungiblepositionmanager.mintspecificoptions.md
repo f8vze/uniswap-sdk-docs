@@ -1,8 +1,9 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [nonfungiblePositionManager](../modules/nonfungiblepositionmanager.md) / MintSpecificOptions
+---
+id: MintSpecificOptions
+title: MintSpecificOptions
+---
 
-# Interface: MintSpecificOptions
-
-[nonfungiblePositionManager](../modules/nonfungiblepositionmanager.md).MintSpecificOptions
+# MintSpecificOptions
 
 ## Properties
 
@@ -12,7 +13,7 @@
 
 Creates pool if not initialized before mint.
 
-Defined in: [nonfungiblePositionManager.ts:32](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/nonfungiblePositionManager.ts#L32)
+Defined in: [nonfungiblePositionManager.ts:32](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/nonfungiblePositionManager.ts#L32)
 
 ___
 
@@ -22,4 +23,4 @@ ___
 
 The account that should receive the minted NFT.
 
-Defined in: [nonfungiblePositionManager.ts:27](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/nonfungiblePositionManager.ts#L27)
+Defined in: [nonfungiblePositionManager.ts:27](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/nonfungiblePositionManager.ts#L27)

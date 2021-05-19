@@ -1,8 +1,9 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [entities/route](../modules/entities_route.md) / Route
+---
+id: Route
+title: Route
+---
 
-# Class: Route<TInput, TOutput\>
-
-[entities/route](../modules/entities_route.md).Route
+# Route<TInput, TOutput\>
 
 Represents a list of pools through which a swap can occur
 
@@ -19,14 +20,14 @@ Represents a list of pools through which a swap can occur
 
 \+ **new Route**<TInput, TOutput\>(`pools`: [*Pool*](entities_pool.pool.md)[], `input`: TInput, `output`: TOutput): [*Route*](entities_route.route.md)<TInput, TOutput\>
 
-#### Type parameters:
+#### Type parameters
 
 | Name | Type |
 | :------ | :------ |
 | `TInput` | Currency |
 | `TOutput` | Currency |
 
-#### Parameters:
+#### Parameters
 
 | Name | Type |
 | :------ | :------ |
@@ -36,7 +37,7 @@ Represents a list of pools through which a swap can occur
 
 **Returns:** [*Route*](entities_route.route.md)<TInput, TOutput\>
 
-Defined in: [entities/route.ts:15](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/route.ts#L15)
+Defined in: [entities/route.ts:15](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/route.ts#L15)
 
 ## Properties
 
@@ -44,7 +45,7 @@ Defined in: [entities/route.ts:15](https://github.com/Uniswap/uniswap-v3-sdk/blo
 
 • `Readonly` **input**: TInput
 
-Defined in: [entities/route.ts:12](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/route.ts#L12)
+Defined in: [entities/route.ts:12](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/route.ts#L12)
 
 ___
 
@@ -52,7 +53,7 @@ ___
 
 • `Readonly` **output**: TOutput
 
-Defined in: [entities/route.ts:13](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/route.ts#L13)
+Defined in: [entities/route.ts:13](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/route.ts#L13)
 
 ___
 
@@ -60,7 +61,7 @@ ___
 
 • `Readonly` **pools**: [*Pool*](entities_pool.pool.md)[]
 
-Defined in: [entities/route.ts:10](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/route.ts#L10)
+Defined in: [entities/route.ts:10](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/route.ts#L10)
 
 ___
 
@@ -68,7 +69,7 @@ ___
 
 • `Readonly` **tokenPath**: *Token*[]
 
-Defined in: [entities/route.ts:11](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/route.ts#L11)
+Defined in: [entities/route.ts:11](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/route.ts#L11)
 
 ## Accessors
 
@@ -78,7 +79,7 @@ Defined in: [entities/route.ts:11](https://github.com/Uniswap/uniswap-v3-sdk/blo
 
 **Returns:** *number*
 
-Defined in: [entities/route.ts:46](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/route.ts#L46)
+Defined in: [entities/route.ts:46](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/route.ts#L46)
 
 ___
 
@@ -90,7 +91,7 @@ Returns the token representation of the input currency. If the input currency is
 
 **Returns:** *Token*
 
-Defined in: [entities/route.ts:53](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/route.ts#L53)
+Defined in: [entities/route.ts:53](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/route.ts#L53)
 
 ___
 
@@ -102,7 +103,7 @@ Returns the mid price of the route
 
 **Returns:** *Price*<TInput, TOutput\>
 
-Defined in: [entities/route.ts:67](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/route.ts#L67)
+Defined in: [entities/route.ts:67](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/route.ts#L67)
 
 ___
 
@@ -114,4 +115,4 @@ Returns the token representation of the output currency. If the output currency 
 
 **Returns:** *Token*
 
-Defined in: [entities/route.ts:60](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/route.ts#L60)
+Defined in: [entities/route.ts:60](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/route.ts#L60)

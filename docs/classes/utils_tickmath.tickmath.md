@@ -1,8 +1,9 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [utils/tickMath](../modules/utils_tickmath.md) / TickMath
+---
+id: TickMath
+title: TickMath
+---
 
-# Class: TickMath
-
-[utils/tickMath](../modules/utils_tickmath.md).TickMath
+# TickMath
 
 ## Properties
 
@@ -12,7 +13,7 @@
 
 The sqrt ratio corresponding to the maximum tick that could be used on any pool.
 
-Defined in: [utils/tickMath.ts:35](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/tickMath.ts#L35)
+Defined in: [utils/tickMath.ts:35](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/utils/tickMath.ts#L35)
 
 ___
 
@@ -22,7 +23,7 @@ ___
 
 The maximum tick that can be used on any pool.
 
-Defined in: [utils/tickMath.ts:26](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/tickMath.ts#L26)
+Defined in: [utils/tickMath.ts:26](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/utils/tickMath.ts#L26)
 
 ___
 
@@ -32,7 +33,7 @@ ___
 
 The sqrt ratio corresponding to the minimum tick that could be used on any pool.
 
-Defined in: [utils/tickMath.ts:31](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/tickMath.ts#L31)
+Defined in: [utils/tickMath.ts:31](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/utils/tickMath.ts#L31)
 
 ___
 
@@ -42,17 +43,17 @@ ___
 
 The minimum tick that can be used on any pool.
 
-Defined in: [utils/tickMath.ts:22](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/tickMath.ts#L22)
+Defined in: [utils/tickMath.ts:22](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/utils/tickMath.ts#L22)
 
 ## Methods
 
 ### getSqrtRatioAtTick
 
-▸ `Static`**getSqrtRatioAtTick**(`tick`: *number*): *default*
+▸ `Static` **getSqrtRatioAtTick**(`tick`: *number*): *default*
 
 Returns the sqrt ratio as a Q64.96 for the given tick. The sqrt ratio is computed as sqrt(1.0001)^tick
 
-#### Parameters:
+#### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
@@ -60,18 +61,18 @@ Returns the sqrt ratio as a Q64.96 for the given tick. The sqrt ratio is compute
 
 **Returns:** *default*
 
-Defined in: [utils/tickMath.ts:41](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/tickMath.ts#L41)
+Defined in: [utils/tickMath.ts:41](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/utils/tickMath.ts#L41)
 
 ___
 
 ### getTickAtSqrtRatio
 
-▸ `Static`**getTickAtSqrtRatio**(`sqrtRatioX96`: *default*): *number*
+▸ `Static` **getTickAtSqrtRatio**(`sqrtRatioX96`: *default*): *number*
 
 Returns the tick corresponding to a given sqrt ratio, s.t. #getSqrtRatioAtTick(tick) <= sqrtRatioX96
 and #getSqrtRatioAtTick(tick + 1) > sqrtRatioX96
 
-#### Parameters:
+#### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
@@ -79,4 +80,4 @@ and #getSqrtRatioAtTick(tick + 1) > sqrtRatioX96
 
 **Returns:** *number*
 
-Defined in: [utils/tickMath.ts:82](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/tickMath.ts#L82)
+Defined in: [utils/tickMath.ts:82](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/utils/tickMath.ts#L82)

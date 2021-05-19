@@ -1,10 +1,11 @@
-[@uniswap/v3-sdk](README.md) / Exports
+---
+id: uniswap-v3-sdk
+title: uniswap-v3-sdk
+---
 
 # @uniswap/v3-sdk
 
-## Table of contents
-
-### Modules
+## Modules
 
 - [constants](modules/constants.md)
 - [entities](modules/entities.md)

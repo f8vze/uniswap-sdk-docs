@@ -1,12 +1,13 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [selfPermit](../modules/selfpermit.md) / SelfPermit
+---
+id: SelfPermit
+title: SelfPermit
+---
 
-# Class: SelfPermit
-
-[selfPermit](../modules/selfpermit.md).SelfPermit
+# SelfPermit
 
 ## Hierarchy
 
-* **SelfPermit**
+- **SelfPermit**
 
   ↳ [*NonfungiblePositionManager*](nonfungiblepositionmanager.nonfungiblepositionmanager-1.md)
 
@@ -16,11 +17,11 @@
 
 ### constructor
 
-\+ `Protected`**new SelfPermit**(): [*SelfPermit*](selfpermit.selfpermit-1.md)
+\+ `Protected` **new SelfPermit**(): [*SelfPermit*](selfpermit.selfpermit-1.md)
 
 **Returns:** [*SelfPermit*](selfpermit.selfpermit-1.md)
 
-Defined in: [selfPermit.ts:30](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/selfPermit.ts#L30)
+Defined in: [selfPermit.ts:30](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/selfPermit.ts#L30)
 
 ## Properties
 
@@ -28,15 +29,15 @@ Defined in: [selfPermit.ts:30](https://github.com/Uniswap/uniswap-v3-sdk/blob/c4
 
 ▪ `Static` **INTERFACE**: *Interface*
 
-Defined in: [selfPermit.ts:30](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/selfPermit.ts#L30)
+Defined in: [selfPermit.ts:30](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/selfPermit.ts#L30)
 
 ## Methods
 
 ### encodePermit
 
-▸ `Static` `Protected`**encodePermit**(`token`: *Token*, `options`: [*PermitOptions*](../types/selfpermit.permitoptions.md)): *string*
+▸ `Static` `Protected` **encodePermit**(`token`: *Token*, `options`: [*PermitOptions*](../types/selfpermit.permitoptions.md)): *string*
 
-#### Parameters:
+#### Parameters
 
 | Name | Type |
 | :------ | :------ |
@@ -45,4 +46,4 @@ Defined in: [selfPermit.ts:30](https://github.com/Uniswap/uniswap-v3-sdk/blob/c4
 
 **Returns:** *string*
 
-Defined in: [selfPermit.ts:34](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/selfPermit.ts#L34)
+Defined in: [selfPermit.ts:34](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/selfPermit.ts#L34)

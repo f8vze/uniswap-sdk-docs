@@ -1,14 +1,12 @@
 [@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [utils/encodeSqrtRatioX96](../modules/utils_encodesqrtratiox96.md) / encodeSqrtRatioX96
 
-# Function: encodeSqrtRatioX96
-
-[utils/encodeSqrtRatioX96](../modules/utils_encodesqrtratiox96.md).encodeSqrtRatioX96
+# encodeSqrtRatioX96
 
 ▸ **encodeSqrtRatioX96**(`amount1`: BigintIsh, `amount0`: BigintIsh): JSBI
 
 Returns the sqrt ratio as a Q64.96 corresponding to a given ratio of amount1 and amount0
 
-#### Parameters:
+#### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
@@ -17,4 +15,4 @@ Returns the sqrt ratio as a Q64.96 corresponding to a given ratio of amount1 and
 
 **Returns:** JSBI
 
-Defined in: [utils/encodeSqrtRatioX96.ts:9](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/encodeSqrtRatioX96.ts#L9)
+Defined in: [utils/encodeSqrtRatioX96.ts:9](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/utils/encodeSqrtRatioX96.ts#L9)

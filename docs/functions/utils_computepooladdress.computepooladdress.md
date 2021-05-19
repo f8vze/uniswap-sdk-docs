@@ -1,12 +1,10 @@
 [@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [utils/computePoolAddress](../modules/utils_computepooladdress.md) / computePoolAddress
 
-# Function: computePoolAddress
-
-[utils/computePoolAddress](../modules/utils_computepooladdress.md).computePoolAddress
+# computePoolAddress
 
 ▸ **computePoolAddress**(`__namedParameters`: { `factoryAddress`: *string* ; `fee`: [*FeeAmount*](../enums/constants.feeamount.md) ; `tokenA`: Token ; `tokenB`: Token  }): *string*
 
-#### Parameters:
+#### Parameters
 
 | Name | Type |
 | :------ | :------ |
@@ -18,4 +16,4 @@
 
 **Returns:** *string*
 
-Defined in: [utils/computePoolAddress.ts:7](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/computePoolAddress.ts#L7)
+Defined in: [utils/computePoolAddress.ts:7](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/utils/computePoolAddress.ts#L7)

@@ -1,8 +1,9 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [swapRouter](../modules/swaprouter.md) / SwapOptions
+---
+id: SwapOptions
+title: SwapOptions
+---
 
-# Interface: SwapOptions
-
-[swapRouter](../modules/swaprouter.md).SwapOptions
+# SwapOptions
 
 Options for producing the arguments to send calls to the router.
 
@@ -14,7 +15,7 @@ Options for producing the arguments to send calls to the router.
 
 When the transaction expires, in epoch seconds.
 
-Defined in: [swapRouter.ts:40](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/swapRouter.ts#L40)
+Defined in: [swapRouter.ts:40](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/swapRouter.ts#L40)
 
 ___
 
@@ -24,7 +25,7 @@ ___
 
 Optional information for taking a fee on output.
 
-Defined in: [swapRouter.ts:55](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/swapRouter.ts#L55)
+Defined in: [swapRouter.ts:55](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/swapRouter.ts#L55)
 
 ___
 
@@ -34,7 +35,7 @@ ___
 
 The optional permit parameters for spending the input.
 
-Defined in: [swapRouter.ts:45](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/swapRouter.ts#L45)
+Defined in: [swapRouter.ts:45](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/swapRouter.ts#L45)
 
 ___
 
@@ -44,7 +45,7 @@ ___
 
 The account that should receive the output.
 
-Defined in: [swapRouter.ts:35](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/swapRouter.ts#L35)
+Defined in: [swapRouter.ts:35](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/swapRouter.ts#L35)
 
 ___
 
@@ -54,7 +55,7 @@ ___
 
 How much the execution price is allowed to move unfavorably from the trade execution price.
 
-Defined in: [swapRouter.ts:30](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/swapRouter.ts#L30)
+Defined in: [swapRouter.ts:30](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/swapRouter.ts#L30)
 
 ___
 
@@ -64,4 +65,4 @@ ___
 
 The optional price limit for the trade.
 
-Defined in: [swapRouter.ts:50](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/swapRouter.ts#L50)
+Defined in: [swapRouter.ts:50](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/swapRouter.ts#L50)

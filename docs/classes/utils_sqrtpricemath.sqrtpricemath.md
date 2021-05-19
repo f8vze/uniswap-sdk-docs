@@ -1,16 +1,17 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [utils/sqrtPriceMath](../modules/utils_sqrtpricemath.md) / SqrtPriceMath
+---
+id: SqrtPriceMath
+title: SqrtPriceMath
+---
 
-# Class: SqrtPriceMath
-
-[utils/sqrtPriceMath](../modules/utils_sqrtpricemath.md).SqrtPriceMath
+# SqrtPriceMath
 
 ## Methods
 
 ### getAmount0Delta
 
-▸ `Static`**getAmount0Delta**(`sqrtRatioAX96`: *default*, `sqrtRatioBX96`: *default*, `liquidity`: *default*, `roundUp`: *boolean*): *default*
+▸ `Static` **getAmount0Delta**(`sqrtRatioAX96`: *default*, `sqrtRatioBX96`: *default*, `liquidity`: *default*, `roundUp`: *boolean*): *default*
 
-#### Parameters:
+#### Parameters
 
 | Name | Type |
 | :------ | :------ |
@@ -21,15 +22,15 @@
 
 **Returns:** *default*
 
-Defined in: [utils/sqrtPriceMath.ts:25](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/sqrtPriceMath.ts#L25)
+Defined in: [utils/sqrtPriceMath.ts:25](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/utils/sqrtPriceMath.ts#L25)
 
 ___
 
 ### getAmount1Delta
 
-▸ `Static`**getAmount1Delta**(`sqrtRatioAX96`: *default*, `sqrtRatioBX96`: *default*, `liquidity`: *default*, `roundUp`: *boolean*): *default*
+▸ `Static` **getAmount1Delta**(`sqrtRatioAX96`: *default*, `sqrtRatioBX96`: *default*, `liquidity`: *default*, `roundUp`: *boolean*): *default*
 
-#### Parameters:
+#### Parameters
 
 | Name | Type |
 | :------ | :------ |
@@ -40,15 +41,15 @@ ___
 
 **Returns:** *default*
 
-Defined in: [utils/sqrtPriceMath.ts:38](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/sqrtPriceMath.ts#L38)
+Defined in: [utils/sqrtPriceMath.ts:38](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/utils/sqrtPriceMath.ts#L38)
 
 ___
 
 ### getNextSqrtPriceFromInput
 
-▸ `Static`**getNextSqrtPriceFromInput**(`sqrtPX96`: *default*, `liquidity`: *default*, `amountIn`: *default*, `zeroForOne`: *boolean*): *default*
+▸ `Static` **getNextSqrtPriceFromInput**(`sqrtPX96`: *default*, `liquidity`: *default*, `amountIn`: *default*, `zeroForOne`: *boolean*): *default*
 
-#### Parameters:
+#### Parameters
 
 | Name | Type |
 | :------ | :------ |
@@ -59,15 +60,15 @@ ___
 
 **Returns:** *default*
 
-Defined in: [utils/sqrtPriceMath.ts:48](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/sqrtPriceMath.ts#L48)
+Defined in: [utils/sqrtPriceMath.ts:48](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/utils/sqrtPriceMath.ts#L48)
 
 ___
 
 ### getNextSqrtPriceFromOutput
 
-▸ `Static`**getNextSqrtPriceFromOutput**(`sqrtPX96`: *default*, `liquidity`: *default*, `amountOut`: *default*, `zeroForOne`: *boolean*): *default*
+▸ `Static` **getNextSqrtPriceFromOutput**(`sqrtPX96`: *default*, `liquidity`: *default*, `amountOut`: *default*, `zeroForOne`: *boolean*): *default*
 
-#### Parameters:
+#### Parameters
 
 | Name | Type |
 | :------ | :------ |
@@ -78,4 +79,4 @@ ___
 
 **Returns:** *default*
 
-Defined in: [utils/sqrtPriceMath.ts:57](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/sqrtPriceMath.ts#L57)
+Defined in: [utils/sqrtPriceMath.ts:57](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/utils/sqrtPriceMath.ts#L57)

@@ -1,8 +1,9 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [entities/position](../modules/entities_position.md) / Position
+---
+id: Position
+title: Position
+---
 
-# Class: Position
-
-[entities/position](../modules/entities_position.md).Position
+# Position
 
 Represents a position on a Uniswap V3 Pool
 
@@ -14,7 +15,7 @@ Represents a position on a Uniswap V3 Pool
 
 Constructs a position for a given pool with the given liquidity
 
-#### Parameters:
+#### Parameters
 
 | Name | Type |
 | :------ | :------ |
@@ -22,7 +23,7 @@ Constructs a position for a given pool with the given liquidity
 
 **Returns:** [*Position*](entities_position.position.md)
 
-Defined in: [entities/position.ts:31](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/position.ts#L31)
+Defined in: [entities/position.ts:31](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/position.ts#L31)
 
 ## Properties
 
@@ -30,7 +31,7 @@ Defined in: [entities/position.ts:31](https://github.com/Uniswap/uniswap-v3-sdk/
 
 • `Readonly` **liquidity**: *default*
 
-Defined in: [entities/position.ts:26](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/position.ts#L26)
+Defined in: [entities/position.ts:26](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/position.ts#L26)
 
 ___
 
@@ -38,7 +39,7 @@ ___
 
 • `Readonly` **pool**: [*Pool*](entities_pool.pool.md)
 
-Defined in: [entities/position.ts:23](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/position.ts#L23)
+Defined in: [entities/position.ts:23](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/position.ts#L23)
 
 ___
 
@@ -46,7 +47,7 @@ ___
 
 • `Readonly` **tickLower**: *number*
 
-Defined in: [entities/position.ts:24](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/position.ts#L24)
+Defined in: [entities/position.ts:24](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/position.ts#L24)
 
 ___
 
@@ -54,7 +55,7 @@ ___
 
 • `Readonly` **tickUpper**: *number*
 
-Defined in: [entities/position.ts:25](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/position.ts#L25)
+Defined in: [entities/position.ts:25](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/position.ts#L25)
 
 ## Accessors
 
@@ -66,7 +67,7 @@ Returns the amount of token0 that this position's liquidity could be burned for 
 
 **Returns:** *CurrencyAmount*<Token\>
 
-Defined in: [entities/position.ts:68](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/position.ts#L68)
+Defined in: [entities/position.ts:68](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/position.ts#L68)
 
 ___
 
@@ -78,7 +79,7 @@ Returns the amount of token1 that this position's liquidity could be burned for 
 
 **Returns:** *CurrencyAmount*<Token\>
 
-Defined in: [entities/position.ts:100](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/position.ts#L100)
+Defined in: [entities/position.ts:100](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/position.ts#L100)
 
 ___
 
@@ -91,7 +92,7 @@ the current price for the pool
 
 **Returns:** *Readonly*<{ `amount0`: *default* ; `amount1`: *default*  }\>
 
-Defined in: [entities/position.ts:240](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/position.ts#L240)
+Defined in: [entities/position.ts:240](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/position.ts#L240)
 
 ___
 
@@ -103,7 +104,7 @@ Returns the price of token0 at the lower tick
 
 **Returns:** *Price*<Token, Token\>
 
-Defined in: [entities/position.ts:54](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/position.ts#L54)
+Defined in: [entities/position.ts:54](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/position.ts#L54)
 
 ___
 
@@ -115,7 +116,7 @@ Returns the price of token0 at the upper tick
 
 **Returns:** *Price*<Token, Token\>
 
-Defined in: [entities/position.ts:61](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/position.ts#L61)
+Defined in: [entities/position.ts:61](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/position.ts#L61)
 
 ## Methods
 
@@ -126,7 +127,7 @@ Defined in: [entities/position.ts:61](https://github.com/Uniswap/uniswap-v3-sdk/
 Returns the minimum amounts that should be requested in order to safely burn the amount of liquidity held by the
 position with the given slippage tolerance
 
-#### Parameters:
+#### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
@@ -134,7 +135,7 @@ position with the given slippage tolerance
 
 **Returns:** *Readonly*<{ `amount0`: *default* ; `amount1`: *default*  }\>
 
-Defined in: [entities/position.ts:192](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/position.ts#L192)
+Defined in: [entities/position.ts:192](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/position.ts#L192)
 
 ___
 
@@ -145,7 +146,7 @@ ___
 Returns the minimum amounts that must be sent in order to safely mint the amount of liquidity held by the position
 with the given slippage tolerance
 
-#### Parameters:
+#### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
@@ -153,17 +154,17 @@ with the given slippage tolerance
 
 **Returns:** *Readonly*<{ `amount0`: *default* ; `amount1`: *default*  }\>
 
-Defined in: [entities/position.ts:134](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/position.ts#L134)
+Defined in: [entities/position.ts:134](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/position.ts#L134)
 
 ___
 
 ### fromAmount0
 
-▸ `Static`**fromAmount0**(`__namedParameters`: { `amount0`: BigintIsh ; `pool`: [*Pool*](entities_pool.pool.md) ; `tickLower`: *number* ; `tickUpper`: *number* ; `useFullPrecision`: *boolean*  }): [*Position*](entities_position.position.md)
+▸ `Static` **fromAmount0**(`__namedParameters`: { `amount0`: BigintIsh ; `pool`: [*Pool*](entities_pool.pool.md) ; `tickLower`: *number* ; `tickUpper`: *number* ; `useFullPrecision`: *boolean*  }): [*Position*](entities_position.position.md)
 
 Computes a position with the maximum amount of liquidity received for a given amount of token0, assuming an unlimited amount of token1
 
-#### Parameters:
+#### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
@@ -176,17 +177,17 @@ Computes a position with the maximum amount of liquidity received for a given am
 
 **Returns:** [*Position*](entities_position.position.md)
 
-Defined in: [entities/position.ts:334](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/position.ts#L334)
+Defined in: [entities/position.ts:334](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/position.ts#L334)
 
 ___
 
 ### fromAmount1
 
-▸ `Static`**fromAmount1**(`__namedParameters`: { `amount1`: BigintIsh ; `pool`: [*Pool*](entities_pool.pool.md) ; `tickLower`: *number* ; `tickUpper`: *number*  }): [*Position*](entities_position.position.md)
+▸ `Static` **fromAmount1**(`__namedParameters`: { `amount1`: BigintIsh ; `pool`: [*Pool*](entities_pool.pool.md) ; `tickLower`: *number* ; `tickUpper`: *number*  }): [*Position*](entities_position.position.md)
 
 Computes a position with the maximum amount of liquidity received for a given amount of token1, assuming an unlimited amount of token0
 
-#### Parameters:
+#### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
@@ -198,18 +199,18 @@ Computes a position with the maximum amount of liquidity received for a given am
 
 **Returns:** [*Position*](entities_position.position.md)
 
-Defined in: [entities/position.ts:357](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/position.ts#L357)
+Defined in: [entities/position.ts:357](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/position.ts#L357)
 
 ___
 
 ### fromAmounts
 
-▸ `Static`**fromAmounts**(`__namedParameters`: { `amount0`: BigintIsh ; `amount1`: BigintIsh ; `pool`: [*Pool*](entities_pool.pool.md) ; `tickLower`: *number* ; `tickUpper`: *number* ; `useFullPrecision`: *boolean*  }): [*Position*](entities_position.position.md)
+▸ `Static` **fromAmounts**(`__namedParameters`: { `amount0`: BigintIsh ; `amount1`: BigintIsh ; `pool`: [*Pool*](entities_pool.pool.md) ; `tickLower`: *number* ; `tickUpper`: *number* ; `useFullPrecision`: *boolean*  }): [*Position*](entities_position.position.md)
 
 Computes the maximum amount of liquidity received for a given amount of token0, token1,
 and the prices at the tick boundaries.
 
-#### Parameters:
+#### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
@@ -223,4 +224,4 @@ and the prices at the tick boundaries.
 
 **Returns:** [*Position*](entities_position.position.md)
 
-Defined in: [entities/position.ts:293](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/position.ts#L293)
+Defined in: [entities/position.ts:293](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/position.ts#L293)

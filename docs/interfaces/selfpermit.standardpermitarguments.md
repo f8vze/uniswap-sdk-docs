@@ -1,8 +1,9 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [selfPermit](../modules/selfpermit.md) / StandardPermitArguments
+---
+id: StandardPermitArguments
+title: StandardPermitArguments
+---
 
-# Interface: StandardPermitArguments
-
-[selfPermit](../modules/selfpermit.md).StandardPermitArguments
+# StandardPermitArguments
 
 ## Properties
 
@@ -10,7 +11,7 @@
 
 • **amount**: BigintIsh
 
-Defined in: [selfPermit.ts:10](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/selfPermit.ts#L10)
+Defined in: [selfPermit.ts:10](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/selfPermit.ts#L10)
 
 ___
 
@@ -18,7 +19,7 @@ ___
 
 • **deadline**: BigintIsh
 
-Defined in: [selfPermit.ts:11](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/selfPermit.ts#L11)
+Defined in: [selfPermit.ts:11](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/selfPermit.ts#L11)
 
 ___
 
@@ -26,7 +27,7 @@ ___
 
 • **r**: *string*
 
-Defined in: [selfPermit.ts:8](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/selfPermit.ts#L8)
+Defined in: [selfPermit.ts:8](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/selfPermit.ts#L8)
 
 ___
 
@@ -34,7 +35,7 @@ ___
 
 • **s**: *string*
 
-Defined in: [selfPermit.ts:9](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/selfPermit.ts#L9)
+Defined in: [selfPermit.ts:9](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/selfPermit.ts#L9)
 
 ___
 
@@ -42,4 +43,4 @@ ___
 
 • **v**: ``0`` \| ``1`` \| ``27`` \| ``28``
 
-Defined in: [selfPermit.ts:7](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/selfPermit.ts#L7)
+Defined in: [selfPermit.ts:7](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/selfPermit.ts#L7)

@@ -1,8 +1,9 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [swapRouter](../modules/swaprouter.md) / FeeOptions
+---
+id: FeeOptions
+title: FeeOptions
+---
 
-# Interface: FeeOptions
-
-[swapRouter](../modules/swaprouter.md).FeeOptions
+# FeeOptions
 
 ## Properties
 
@@ -12,7 +13,7 @@
 
 The percent of the output that will be taken as a fee.
 
-Defined in: [swapRouter.ts:15](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/swapRouter.ts#L15)
+Defined in: [swapRouter.ts:15](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/swapRouter.ts#L15)
 
 ___
 
@@ -22,4 +23,4 @@ ___
 
 The recipient of the fee.
 
-Defined in: [swapRouter.ts:20](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/swapRouter.ts#L20)
+Defined in: [swapRouter.ts:20](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/swapRouter.ts#L20)

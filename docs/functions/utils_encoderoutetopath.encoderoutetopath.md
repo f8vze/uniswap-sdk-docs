@@ -1,14 +1,12 @@
 [@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [utils/encodeRouteToPath](../modules/utils_encoderoutetopath.md) / encodeRouteToPath
 
-# Function: encodeRouteToPath
-
-[utils/encodeRouteToPath](../modules/utils_encoderoutetopath.md).encodeRouteToPath
+# encodeRouteToPath
 
 ▸ **encodeRouteToPath**(`route`: [*Route*](../classes/entities_route.route.md)<Currency, Currency\>, `exactOutput`: *boolean*): *string*
 
 Converts a route to a hex encoded path
 
-#### Parameters:
+#### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
@@ -17,4 +15,4 @@ Converts a route to a hex encoded path
 
 **Returns:** *string*
 
-Defined in: [utils/encodeRouteToPath.ts:11](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/utils/encodeRouteToPath.ts#L11)
+Defined in: [utils/encodeRouteToPath.ts:11](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/utils/encodeRouteToPath.ts#L11)

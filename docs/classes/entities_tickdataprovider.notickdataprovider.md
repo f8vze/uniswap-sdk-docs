@@ -1,15 +1,16 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [entities/tickDataProvider](../modules/entities_tickdataprovider.md) / NoTickDataProvider
+---
+id: NoTickDataProvider
+title: NoTickDataProvider
+---
 
-# Class: NoTickDataProvider
-
-[entities/tickDataProvider](../modules/entities_tickdataprovider.md).NoTickDataProvider
+# NoTickDataProvider
 
 This tick data provider does not know how to fetch any tick data. It throws whenever it is required. Useful if you
 do not need to load tick data for your use case.
 
 ## Implements
 
-* [*TickDataProvider*](../interfaces/entities_tickdataprovider.tickdataprovider.md)
+- [*TickDataProvider*](../interfaces/entities_tickdataprovider.tickdataprovider.md)
 
 ## Constructors
 
@@ -27,7 +28,7 @@ do not need to load tick data for your use case.
 
 Return information corresponding to a specific tick
 
-#### Parameters:
+#### Parameters
 
 | Name | Type |
 | :------ | :------ |
@@ -37,7 +38,7 @@ Return information corresponding to a specific tick
 
 Implementation of: [TickDataProvider](../interfaces/entities_tickdataprovider.tickdataprovider.md)
 
-Defined in: [entities/tickDataProvider.ts:28](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/tickDataProvider.ts#L28)
+Defined in: [entities/tickDataProvider.ts:28](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/tickDataProvider.ts#L28)
 
 ___
 
@@ -47,7 +48,7 @@ ___
 
 Return the next tick that is initialized within a single word
 
-#### Parameters:
+#### Parameters
 
 | Name | Type |
 | :------ | :------ |
@@ -59,4 +60,4 @@ Return the next tick that is initialized within a single word
 
 Implementation of: [TickDataProvider](../interfaces/entities_tickdataprovider.tickdataprovider.md)
 
-Defined in: [entities/tickDataProvider.ts:32](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/tickDataProvider.ts#L32)
+Defined in: [entities/tickDataProvider.ts:32](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/tickDataProvider.ts#L32)

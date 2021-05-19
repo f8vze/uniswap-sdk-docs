@@ -1,8 +1,9 @@
-[@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [entities/trade](../modules/entities_trade.md) / Trade
+---
+id: Trade
+title: Trade
+---
 
-# Class: Trade<TInput, TOutput, TTradeType\>
-
-[entities/trade](../modules/entities_trade.md).Trade
+# Trade<TInput, TOutput, TTradeType\>
 
 Represents a trade executed against a list of pools.
 Does not account for slippage, i.e. trades that front run this trade and move the price.
@@ -23,7 +24,7 @@ Does not account for slippage, i.e. trades that front run this trade and move th
 
 The input amount for the trade assuming no slippage.
 
-Defined in: [entities/trade.ts:73](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/trade.ts#L73)
+Defined in: [entities/trade.ts:73](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/trade.ts#L73)
 
 ___
 
@@ -33,7 +34,7 @@ ___
 
 The output amount for the trade assuming no slippage.
 
-Defined in: [entities/trade.ts:77](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/trade.ts#L77)
+Defined in: [entities/trade.ts:77](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/trade.ts#L77)
 
 ___
 
@@ -43,7 +44,7 @@ ___
 
 The route of the trade, i.e. which pools the trade goes through.
 
-Defined in: [entities/trade.ts:65](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/trade.ts#L65)
+Defined in: [entities/trade.ts:65](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/trade.ts#L65)
 
 ___
 
@@ -53,7 +54,7 @@ ___
 
 The type of the trade, either exact in or exact out.
 
-Defined in: [entities/trade.ts:69](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/trade.ts#L69)
+Defined in: [entities/trade.ts:69](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/trade.ts#L69)
 
 ## Accessors
 
@@ -65,7 +66,7 @@ The price expressed in terms of output amount/input amount.
 
 **Returns:** *Price*<TInput, TOutput\>
 
-Defined in: [entities/trade.ts:87](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/trade.ts#L87)
+Defined in: [entities/trade.ts:87](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/trade.ts#L87)
 
 ___
 
@@ -77,7 +78,7 @@ Returns the percent difference between the route's mid price and the price impac
 
 **Returns:** *Percent*
 
-Defined in: [entities/trade.ts:108](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/trade.ts#L108)
+Defined in: [entities/trade.ts:108](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/trade.ts#L108)
 
 ## Methods
 
@@ -87,7 +88,7 @@ Defined in: [entities/trade.ts:108](https://github.com/Uniswap/uniswap-v3-sdk/bl
 
 Get the maximum amount in that can be spent via this trade for the given slippage tolerance
 
-#### Parameters:
+#### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
@@ -95,7 +96,7 @@ Get the maximum amount in that can be spent via this trade for the given slippag
 
 **Returns:** *CurrencyAmount*<TInput\>
 
-Defined in: [entities/trade.ts:252](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/trade.ts#L252)
+Defined in: [entities/trade.ts:252](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/trade.ts#L252)
 
 ___
 
@@ -105,7 +106,7 @@ ___
 
 Get the minimum amount that must be received from this trade for the given slippage tolerance
 
-#### Parameters:
+#### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
@@ -113,7 +114,7 @@ Get the minimum amount that must be received from this trade for the given slipp
 
 **Returns:** *CurrencyAmount*<TOutput\>
 
-Defined in: [entities/trade.ts:235](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/trade.ts#L235)
+Defined in: [entities/trade.ts:235](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/trade.ts#L235)
 
 ___
 
@@ -123,7 +124,7 @@ ___
 
 Return the execution price after accounting for slippage tolerance
 
-#### Parameters:
+#### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
@@ -131,27 +132,27 @@ Return the execution price after accounting for slippage tolerance
 
 **Returns:** *Price*<TInput, TOutput\>
 
-Defined in: [entities/trade.ts:267](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/trade.ts#L267)
+Defined in: [entities/trade.ts:267](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/trade.ts#L267)
 
 ___
 
 ### bestTradeExactIn
 
-▸ `Static`**bestTradeExactIn**<TInput, TOutput\>(`pools`: [*Pool*](entities_pool.pool.md)[], `currencyAmountIn`: *CurrencyAmount*<TInput\>, `currencyOut`: TOutput, `__namedParameters?`: [*BestTradeOptions*](../interfaces/entities_trade.besttradeoptions.md), `currentPools?`: [*Pool*](entities_pool.pool.md)[], `nextAmountIn?`: *CurrencyAmount*<Currency\>, `bestTrades?`: [*Trade*](entities_trade.trade.md)<TInput, TOutput, EXACT\_INPUT\>[]): *Promise*<[*Trade*](entities_trade.trade.md)<TInput, TOutput, EXACT\_INPUT\>[]\>
+▸ `Static` **bestTradeExactIn**<TInput, TOutput\>(`pools`: [*Pool*](entities_pool.pool.md)[], `currencyAmountIn`: *CurrencyAmount*<TInput\>, `currencyOut`: TOutput, `__namedParameters?`: [*BestTradeOptions*](../interfaces/entities_trade.besttradeoptions.md), `currentPools?`: [*Pool*](entities_pool.pool.md)[], `nextAmountIn?`: *CurrencyAmount*<Currency\>, `bestTrades?`: [*Trade*](entities_trade.trade.md)<TInput, TOutput, EXACT\_INPUT\>[]): *Promise*<[*Trade*](entities_trade.trade.md)<TInput, TOutput, EXACT\_INPUT\>[]\>
 
 Given a list of pools, and a fixed amount in, returns the top `maxNumResults` trades that go from an input token
 amount to an output token, making at most `maxHops` hops.
 Note this does not consider aggregation, as routes are linear. It's possible a better route exists by splitting
 the amount in among multiple routes.
 
-#### Type parameters:
+#### Type parameters
 
 | Name | Type |
 | :------ | :------ |
 | `TInput` | Currency |
 | `TOutput` | Currency |
 
-#### Parameters:
+#### Parameters
 
 | Name | Type | Default value | Description |
 | :------ | :------ | :------ | :------ |
@@ -165,13 +166,13 @@ the amount in among multiple routes.
 
 **Returns:** *Promise*<[*Trade*](entities_trade.trade.md)<TInput, TOutput, EXACT\_INPUT\>[]\>
 
-Defined in: [entities/trade.ts:290](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/trade.ts#L290)
+Defined in: [entities/trade.ts:290](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/trade.ts#L290)
 
 ___
 
 ### bestTradeExactOut
 
-▸ `Static`**bestTradeExactOut**<TInput, TOutput\>(`pools`: [*Pool*](entities_pool.pool.md)[], `currencyIn`: Currency, `currencyAmountOut`: *CurrencyAmount*<TOutput\>, `__namedParameters?`: [*BestTradeOptions*](../interfaces/entities_trade.besttradeoptions.md), `currentPools?`: [*Pool*](entities_pool.pool.md)[], `nextAmountOut?`: *CurrencyAmount*<Currency\>, `bestTrades?`: [*Trade*](entities_trade.trade.md)<TInput, TOutput, EXACT\_OUTPUT\>[]): *Promise*<[*Trade*](entities_trade.trade.md)<TInput, TOutput, EXACT\_OUTPUT\>[]\>
+▸ `Static` **bestTradeExactOut**<TInput, TOutput\>(`pools`: [*Pool*](entities_pool.pool.md)[], `currencyIn`: Currency, `currencyAmountOut`: *CurrencyAmount*<TOutput\>, `__namedParameters?`: [*BestTradeOptions*](../interfaces/entities_trade.besttradeoptions.md), `currentPools?`: [*Pool*](entities_pool.pool.md)[], `nextAmountOut?`: *CurrencyAmount*<Currency\>, `bestTrades?`: [*Trade*](entities_trade.trade.md)<TInput, TOutput, EXACT\_OUTPUT\>[]): *Promise*<[*Trade*](entities_trade.trade.md)<TInput, TOutput, EXACT\_OUTPUT\>[]\>
 
 similar to the above method but instead targets a fixed output amount
 given a list of pools, and a fixed amount out, returns the top `maxNumResults` trades that go from an input token
@@ -179,14 +180,14 @@ to an output token amount, making at most `maxHops` hops
 note this does not consider aggregation, as routes are linear. it's possible a better route exists by splitting
 the amount in among multiple routes.
 
-#### Type parameters:
+#### Type parameters
 
 | Name | Type |
 | :------ | :------ |
 | `TInput` | Currency |
 | `TOutput` | Currency |
 
-#### Parameters:
+#### Parameters
 
 | Name | Type | Default value | Description |
 | :------ | :------ | :------ | :------ |
@@ -200,18 +201,18 @@ the amount in among multiple routes.
 
 **Returns:** *Promise*<[*Trade*](entities_trade.trade.md)<TInput, TOutput, EXACT\_OUTPUT\>[]\>
 
-Defined in: [entities/trade.ts:376](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/trade.ts#L376)
+Defined in: [entities/trade.ts:376](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/trade.ts#L376)
 
 ___
 
 ### createUncheckedTrade
 
-▸ `Static`**createUncheckedTrade**<TInput, TOutput, TTradeType\>(`constructorArguments`: { `inputAmount`: *CurrencyAmount*<TInput\> ; `outputAmount`: *CurrencyAmount*<TOutput\> ; `route`: [*Route*](entities_route.route.md)<TInput, TOutput\> ; `tradeType`: TTradeType  }): [*Trade*](entities_trade.trade.md)<TInput, TOutput, TTradeType\>
+▸ `Static` **createUncheckedTrade**<TInput, TOutput, TTradeType\>(`constructorArguments`: { `inputAmount`: *CurrencyAmount*<TInput\> ; `outputAmount`: *CurrencyAmount*<TOutput\> ; `route`: [*Route*](entities_route.route.md)<TInput, TOutput\> ; `tradeType`: TTradeType  }): [*Trade*](entities_trade.trade.md)<TInput, TOutput, TTradeType\>
 
 Creates a trade without computing the result of swapping through the route. Useful when you have simulated the trade
 elsewhere and do not have any tick data
 
-#### Type parameters:
+#### Type parameters
 
 | Name | Type |
 | :------ | :------ |
@@ -219,7 +220,7 @@ elsewhere and do not have any tick data
 | `TOutput` | Currency |
 | `TTradeType` | TradeType |
 
-#### Parameters:
+#### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
@@ -231,24 +232,24 @@ elsewhere and do not have any tick data
 
 **Returns:** [*Trade*](entities_trade.trade.md)<TInput, TOutput, TTradeType\>
 
-Defined in: [entities/trade.ts:192](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/trade.ts#L192)
+Defined in: [entities/trade.ts:192](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/trade.ts#L192)
 
 ___
 
 ### exactIn
 
-▸ `Static`**exactIn**<TInput, TOutput\>(`route`: [*Route*](entities_route.route.md)<TInput, TOutput\>, `amountIn`: *CurrencyAmount*<TInput\>): *Promise*<[*Trade*](entities_trade.trade.md)<TInput, TOutput, EXACT\_INPUT\>\>
+▸ `Static` **exactIn**<TInput, TOutput\>(`route`: [*Route*](entities_route.route.md)<TInput, TOutput\>, `amountIn`: *CurrencyAmount*<TInput\>): *Promise*<[*Trade*](entities_trade.trade.md)<TInput, TOutput, EXACT\_INPUT\>\>
 
 Constructs an exact in trade with the given amount in and route
 
-#### Type parameters:
+#### Type parameters
 
 | Name | Type |
 | :------ | :------ |
 | `TInput` | Currency |
 | `TOutput` | Currency |
 
-#### Parameters:
+#### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
@@ -257,24 +258,24 @@ Constructs an exact in trade with the given amount in and route
 
 **Returns:** *Promise*<[*Trade*](entities_trade.trade.md)<TInput, TOutput, EXACT\_INPUT\>\>
 
-Defined in: [entities/trade.ts:120](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/trade.ts#L120)
+Defined in: [entities/trade.ts:120](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/trade.ts#L120)
 
 ___
 
 ### exactOut
 
-▸ `Static`**exactOut**<TInput, TOutput\>(`route`: [*Route*](entities_route.route.md)<TInput, TOutput\>, `amountOut`: *CurrencyAmount*<TOutput\>): *Promise*<[*Trade*](entities_trade.trade.md)<TInput, TOutput, EXACT\_OUTPUT\>\>
+▸ `Static` **exactOut**<TInput, TOutput\>(`route`: [*Route*](entities_route.route.md)<TInput, TOutput\>, `amountOut`: *CurrencyAmount*<TOutput\>): *Promise*<[*Trade*](entities_trade.trade.md)<TInput, TOutput, EXACT\_OUTPUT\>\>
 
 Constructs an exact out trade with the given amount out and route
 
-#### Type parameters:
+#### Type parameters
 
 | Name | Type |
 | :------ | :------ |
 | `TInput` | Currency |
 | `TOutput` | Currency |
 
-#### Parameters:
+#### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
@@ -283,17 +284,17 @@ Constructs an exact out trade with the given amount out and route
 
 **Returns:** *Promise*<[*Trade*](entities_trade.trade.md)<TInput, TOutput, EXACT\_OUTPUT\>\>
 
-Defined in: [entities/trade.ts:132](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/trade.ts#L132)
+Defined in: [entities/trade.ts:132](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/trade.ts#L132)
 
 ___
 
 ### fromRoute
 
-▸ `Static`**fromRoute**<TInput, TOutput, TTradeType\>(`route`: [*Route*](entities_route.route.md)<TInput, TOutput\>, `amount`: TTradeType *extends* EXACT\_INPUT ? *CurrencyAmount*<TInput\> : *CurrencyAmount*<TOutput\>, `tradeType`: TTradeType): *Promise*<[*Trade*](entities_trade.trade.md)<TInput, TOutput, TTradeType\>\>
+▸ `Static` **fromRoute**<TInput, TOutput, TTradeType\>(`route`: [*Route*](entities_route.route.md)<TInput, TOutput\>, `amount`: TTradeType *extends* EXACT\_INPUT ? *CurrencyAmount*<TInput\> : *CurrencyAmount*<TOutput\>, `tradeType`: TTradeType): *Promise*<[*Trade*](entities_trade.trade.md)<TInput, TOutput, TTradeType\>\>
 
 Constructs a trade by simulating swaps through the given route
 
-#### Type parameters:
+#### Type parameters
 
 | Name | Type |
 | :------ | :------ |
@@ -301,7 +302,7 @@ Constructs a trade by simulating swaps through the given route
 | `TOutput` | Currency |
 | `TTradeType` | TradeType |
 
-#### Parameters:
+#### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
@@ -311,4 +312,4 @@ Constructs a trade by simulating swaps through the given route
 
 **Returns:** *Promise*<[*Trade*](entities_trade.trade.md)<TInput, TOutput, TTradeType\>\>
 
-Defined in: [entities/trade.ts:145](https://github.com/Uniswap/uniswap-v3-sdk/blob/c42b4d4/src/entities/trade.ts#L145)
+Defined in: [entities/trade.ts:145](https://github.com/Uniswap/uniswap-v3-sdk/blob/aeb1b09/src/entities/trade.ts#L145)
