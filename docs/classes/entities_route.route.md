@@ -3,7 +3,7 @@ id: Route
 title: Route
 ---
 
-# Route<TInput, TOutput\>
+# Route
 
 Represents a list of pools through which a swap can occur
 

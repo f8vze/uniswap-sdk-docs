@@ -3,7 +3,7 @@ id: Trade
 title: Trade
 ---
 
-# Trade<TInput, TOutput, TTradeType\>
+# Trade
 
 Represents a trade executed against a list of pools.
 Does not account for slippage, i.e. trades that front run this trade and move the price.

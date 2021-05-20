@@ -1,4 +1,10 @@
-@uniswap/v3-sdk / [Exports](modules.md)
+---
+id: readme
+slug: /
+---
+# Welcome
+
+Welcome to the Uniswap Protocol V3 SDK. Here you can find easily searchable references for the SDK. For deeper dives, we recommend referencing the SDK github repo directly.
 
 # Alpha software
 
