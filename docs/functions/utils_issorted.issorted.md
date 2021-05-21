@@ -1,3 +1,6 @@
+---
+id: isSorted 
+---
 [@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [utils/isSorted](../modules/utils_issorted.md) / isSorted
 
 # isSorted

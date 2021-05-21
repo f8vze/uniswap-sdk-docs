@@ -1,3 +1,6 @@
+---
+id: encodeRouteToPath
+---
 [@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [utils/encodeRouteToPath](../modules/utils_encoderoutetopath.md) / encodeRouteToPath
 
 # encodeRouteToPath

@@ -1,3 +1,6 @@
+---
+id: nearestUsableTick
+---
 [@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [utils/nearestUsableTick](../modules/utils_nearestusabletick.md) / nearestUsableTick
 
 # nearestUsableTick

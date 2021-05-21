@@ -1,3 +1,7 @@
+---
+id: maxLiquidityForAmounts
+---
+
 [@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [utils/maxLiquidityForAmounts](../modules/utils_maxliquidityforamounts.md) / maxLiquidityForAmounts
 
 # maxLiquidityForAmounts

@@ -1,3 +1,7 @@
+---
+id: toHex
+---
+
 [@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [utils/calldata](../modules/utils_calldata.md) / toHex
 
 # toHex

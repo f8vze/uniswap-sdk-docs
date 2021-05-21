@@ -1,3 +1,6 @@
+---
+id: tickToPrice
+---
 [@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [utils/priceTickConversions](../modules/utils_pricetickconversions.md) / tickToPrice
 
 # tickToPrice

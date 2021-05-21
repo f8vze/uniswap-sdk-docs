@@ -31,8 +31,13 @@ module.exports = {
           position: "right",
         },
         {
-          href: "https://github.com/uniswap/uniswap-docs",
+          href: "https://github.com/Uniswap/uniswap-v3-sdk",
           label: "GitHub",
+          position: "right",
+        },
+        {
+          href: "https://docs.uniswap.org/",
+          label: "Protocol Docs",
           position: "right",
         },
       ],

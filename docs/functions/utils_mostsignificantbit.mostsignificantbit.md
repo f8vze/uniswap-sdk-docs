@@ -1,3 +1,6 @@
+---
+id: mostSignificantBit
+---
 [@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [utils/mostSignificantBit](../modules/utils_mostsignificantbit.md) / mostSignificantBit
 
 # mostSignificantBit

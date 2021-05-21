@@ -1,3 +1,6 @@
+---
+id: encodeSqrtRatioX96
+---
 [@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [utils/encodeSqrtRatioX96](../modules/utils_encodesqrtratiox96.md) / encodeSqrtRatioX96
 
 # encodeSqrtRatioX96

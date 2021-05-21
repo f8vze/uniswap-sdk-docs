@@ -1,3 +1,7 @@
+---
+id: tradeComparator
+---
+
 [@uniswap/v3-sdk](../README.md) / [Exports](../modules.md) / [entities/trade](../modules/entities_trade.md) / tradeComparator
 
 # tradeComparator
