@@ -4,7 +4,7 @@ slug: /
 ---
 # Welcome
 
-Welcome to the Uniswap Protocol V3 SDK. Here you can find easily searchable references for the SDK. For deeper dives, we recommend referencing the SDK github repo directly.
+Welcome to the Uniswap Protocol V3 SDK. Here you can find easily searchable references for the SDK. For deeper dives, we recommend referencing the [**SDK Github**](https://github.com/Uniswap/uniswap-v3-sdk) repo directly.
 
 # Alpha software
 
@@ -20,4 +20,3 @@ Pull requests welcome!
 [![npm version](https://img.shields.io/npm/v/@uniswap/v3-sdk/latest.svg)](https://www.npmjs.com/package/@uniswap/v3-sdk/v/latest)
 [![npm bundle size (scoped version)](https://img.shields.io/bundlephobia/minzip/@uniswap/v3-sdk/latest.svg)](https://bundlephobia.com/result?p=@uniswap/v3-sdk@latest)
 
-In-depth documentation on this SDK is available at [uniswap.org](https://docs.uniswap.org/).
